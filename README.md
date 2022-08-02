@@ -58,5 +58,12 @@ The number of constraints and variables slightly varies with the test case used 
 
 Choosing to include binary variables for the hydro units significantly increases the difficulty of the model, although the number of binary variables might not reflect it. We summarize bellow the number of additional variables included in the model for each of the hydro models.
 
+| Hydro model           | Additional binary variables   | 
+| :-----:               | :-:                           | 
+| no hydro binaries     | 0                             | 
+| aggr                  | 7,200                         | 
+| indv                  |                               | 
+| zones                 |                               | 
+
 Currently, we have 75 cases taken from early February 2021 up to late July 2022.
 
