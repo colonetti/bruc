@@ -57,11 +57,10 @@ $$ hg_{(h, 1)} + hg_{(h, 2)} - C_{h,i}^{fb,hpf} \cdot fb_h - C_{h,i}^{q,hpf} \cd
 
 | no hydro binaries                                         | aggr                                                                                  | indv  | zones |
 | :-----:                                                   | :-:                                                                                   | :-:               | :-: |
-| $0 \leq q_{(h, 1)} + q_{(h, 2)}   \leq  2 \cdot Q^{max} $ | $Q^{min} \cdot u_h \leq q_{(h, 1)} + q_{(h, 2)}   \leq  2 \cdot Q^{max} \cdot u_h $   | $Q^{min} \cdot u_{(h,1)} \leq q_{(h, 1)} \leq Q^{max} \cdot u_{(h,1)} $, <br />
-$Q^{min} \cdot u_{(h,2)} \leq q_{(h, 2)} \leq Q^{max} \cdot u_{(h,2)} $ |     |
-| $0 \leq hg_{(h, 1)} + hg_{(h, 2)} \leq  2 \cdot HG^{max}$ | $HG^{min} \cdot u_h \leq hg_{(h, 1)} + hg_{(h, 2)} \leq  2 \cdot HG^{max} \cdot u_h $ | 55,440            |     |
+| $0 \leq q_{(h, 1)} + q_{(h, 2)}   \leq  2 \cdot Q^{max} $ | $Q^{min} \cdot u_h \leq q_{(h, 1)} + q_{(h, 2)}   \leq  2 \cdot Q^{max} \cdot u_h $   | $Q^{min} \cdot u_{(h,1)} \leq q_{(h, 1)} \leq Q^{max} \cdot u_{(h,1)} $, <br /> $Q^{min} \cdot u_{(h,2)} \leq q_{(h, 2)} \leq Q^{max} \cdot u_{(h,2)} $ |   $Q^{min} \cdot u_{h,zone} \leq q_{(h, 1)} + q_{(h, 2)}   \leq  2 \cdot Q^{max} \cdot u_{h,zone} $  |
+| $0 \leq hg_{(h, 1)} + hg_{(h, 2)} \leq  2 \cdot HG^{max}$ | $HG^{min} \cdot u_h \leq hg_{(h, 1)} + hg_{(h, 2)} \leq  2 \cdot HG^{max} \cdot u_h $ | $HG^{min} \cdot u_{(h,1)} \leq hg_{(h, 1)} \leq HG^{max} \cdot u_{(h,1)} $, <br /> $HG^{min} \cdot u_{(h,2)} \leq hg_{(h, 2)} \leq HG^{max} \cdot u_{(h,2)} $            |   $HG^{min} \cdot u_{h,zone} \leq hg_{(h, 1)} + hg_{(h, 2)} \leq  2 \cdot HG^{max} \cdot u_{h,zone} $  |
 
-where $u$ are additional binary variables.
+where $u$ are additional binary variables. In this simple example, *aggr* and *zones* are equivalent. However, this is generally not true, especially if the plant has many units and their lower and upper limits are close. 
 
 # Network model
 We use the common DC representation of the network.
