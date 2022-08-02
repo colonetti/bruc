@@ -47,13 +47,20 @@ The last component basically determines how the forbidden zones of operation are
 
 We illustrate below the piecewise linear approximation of the hydropower function, the linear approximations of the forebay level and tailrace level, and the main difference of hydro models *no hydro binaries*, *aggr*, *indv*, *zones*. 
 
-The variables are: $q_{(h, 1)}$, turbine discharge of hydro generating unit $1$ of $h$; $q_{(h, 2)}$ turbine discharge of unit 2; $s_h$, spillage; $fb_h$ forebay level of the plant; $hg_{(h, 1)}$, $hg_{(h, 2)}$, power outputs of units $1$ and $2$; $v_h$, reservoir volume. The 'pieces' of the piecewise linear approximation are indexed by $i \in I_h$. The variables' coefficients and the constants are given in uppercase $C$. If the hydro generating unit $1$ is operating, i.e., it is committed (it is on), then its turbine discharge must be within the closed range ($\underline{q}, \overline{q}$), and its generation within ($\underline{hg), overline{hg}$).  
+The variables are: $q_{(h, 1)}$, turbine discharge of hydro generating unit $1$ of $h$; $q_{(h, 2)}$ turbine discharge of unit 2; $s_h$, spillage; $fb_h$ forebay level of the plant; $hg_{(h, 1)}$, $hg_{(h, 2)}$, power outputs of units $1$ and $2$; $v_h$, reservoir volume. The 'pieces' of the piecewise linear approximation are indexed by $i \in I_h$. The variables' coefficients and the constants are given in uppercase $C$. If the hydro generating unit $1$ is operating, i.e., it is committed (it is on), then its turbine discharge must be within the closed range $\[{Q}^{min}, Q^{max}\]$, and its generation within (${HG}^{min}, HG^{max}$). Hydro unit $2$ has thesse same limits and it is also connected to the same bus as $1$. Further assume that these limits are such that, when looking at the total turbine discharge and total generation of the plant, the plant has a single operating zone   
 
 $$ fb_h - C^{v,fb} \cdot v_h - C^{const,fb} = 0 $$
 
 $$ tr_h - C^{q,tr} \cdot (q_{(h, 1} + q_{(h, 2} + s_h) - C^{const,tr} = 0 $$
 
 $$ hg_{(h, 1)} + hg_{(h, 2)} - C_{h,i}^{fb,hpf} \cdot fb_h - C_{h,i}^{q,hpf} \cdot (q_{(h, 1)} + q_{(h, 2)}) - C_{h,i}^{s,hpf} \cdot s_h - C_{h,i}^{const,hpf} \leq 0 \qquad \forall i \in I_h $$
+
+| no hydro binaries | aggr  | indv  | zones |
+| :-----:     | :-:                   | :-:               | :-: |
+| $0 \leq q_{(h, 1)} + q_{(h, 2)}   \leq $ | 714,145               | 55,440            |     |
+| $0 \leq hg_{(h, 1)} + hg_{(h, 2)}  $  | 714,145               | 55,440            |     |
+
+where $u$ are additional binary variables.
 
 # Network model
 We use the common DC representation of the network.
@@ -73,7 +80,7 @@ Choosing to include binary variables for the hydro units significantly increases
 | no hydro binaries     | 0                             | 
 | aggr                  | 7,200                         | 
 | indv                  | 35,088                        | 
-| zones                 |                               | 
+| zones                 | 17,568                        | 
 
 Currently, we have 75 cases taken from early February 2021 up to late July 2022.
 
