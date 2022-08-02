@@ -45,10 +45,12 @@ The last component basically determines how the forbidden zones of operation are
 
 *zones*:              is equivalent to *indv*, however, instead of explictly including one binary variable for each hydro generating unit, it includes one binary variable for each operating zone (as oppose to forbidden zone) of each group of identical hydro generating units (by identical, we mean units with exactly the same operational limits connected to the same bus).
 
-We illustrate the piecewise linear approximation of the hydropower function for an arbitrary hydro plant $h$. The variables are: $q_{(h, 1)}$, turbine discharge of hydro generating unit $1$ of $h$; $q_(h, 2)$ turbine discharge of unit 2; $s_h$, spillage; $fb_h$ forebay level of the plant; $hg_(h, 1)$, $hg_(h, 2)$, power outputs of units $1$ and $2$. The 'pieces' of the piecewise linear approximation are indexed by $i \in I$.
+We illustrate the piecewise linear approximation of the hydropower function and the linear approximations of the forebay level and tailrace level for an arbitrary hydro plant $h$. The variables are: $q_{(h, 1)}$, turbine discharge of hydro generating unit $1$ of $h$; $q_{(h, 2)}$ turbine discharge of unit 2; $s_h$, spillage; $fb_h$ forebay level of the plant; $hg_{(h, 1)}$, $hg_(h, 2)}$, power outputs of units $1$ and $2$; $v_h$, reservoir volume. The 'pieces' of the piecewise linear approximation are indexed by $i \in I$.
 
-$a \ne 0$, there are two solutions to $(ax^2 + bx + c = 0)$ and they are 
-$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
+$fb_h - C^{v,fb} \cdot v_h - C^{const,fb} = 0$
+$tr_h - C^{q,tr} \cdot (q_{(h, 1} + q_{(h, 2} + s_h) - C^{const,tr} = 0$
+
+$fb_h - C^{v,fb} \cdot v_h - C^{const,fb} \leq 0 \forall i \in I$
 
 # Network model
 We use the common DC representation of the network.
