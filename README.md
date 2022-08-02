@@ -1,7 +1,7 @@
 # bruc
 # (Br)azilian (u)nit (c)ommitment 
 
-Real unit-commitment data is hard to come by. System operators are generally secretive about the data used for building their unit-commitment (UC) problems. Even when data is available, it is sometimes difficult to read, specially if one is not deeply familiar with the data-format used and the problem itself.
+Real unit-commitment data is hard to come by. System operators are generally secretive about the data used for building their unit-commitment (UC) problems. Even when data is available, it is sometimes difficult to read, especially if one is not deeply familiar with the data-format used and the problem itself.
 
 As a consequence of this lack of real data, researchers usually resort to synthetic systems, which might not accurately represent the difficulties of a real UC.
 
@@ -41,11 +41,13 @@ The last component basically determines how the forbidden zones of operation are
 
 *aggr*:               a single binary variable is used for each hydro plant. It models the first forbidden zone of turbine discharge and generation.
 
-*indv*:               a binary variable is used for each hydro generating unit to model its lower and upper limits on turbine discharge and genertaion.
+*indv*:               a binary variable is used for each hydro generating unit to model its lower and upper limits on turbine discharge and generation.
 
-*zones*:              is equivalent to *indv*, however, instead of explictly including one binary variable for each hydro generating unit, it includes one binary variable for each operating zone (as oppose to forbidden zone) of each group of identical hydro generating units (by identical, we mean units with exactly the same operational limits connected to the same bus).
+*zones*:              is equivalent to *indv*, however, instead of explicitly including one binary variable for each hydro generating unit, it includes one binary variable for each operating zone (as oppose to forbidden zone) of each group of identical hydro generating units (by identical, we mean units with exactly the same operational limits connected to the same bus).
 
-We illustrate the piecewise linear approximation of the hydropower function and the linear approximations of the forebay level and tailrace level for an arbitrary hydro plant $h$. The variables are: $q_{(h, 1)}$, turbine discharge of hydro generating unit $1$ of $h$; $q_{(h, 2)}$ turbine discharge of unit 2; $s_h$, spillage; $fb_h$ forebay level of the plant; $hg_{(h, 1)}$, $hg_{(h, 2)}$, power outputs of units $1$ and $2$; $v_h$, reservoir volume. The 'pieces' of the piecewise linear approximation are indexed by $i \in I_h$. The variables coefficients and the constants are given in uppercase $C$.
+We illustrate below the piecewise linear approximation of the hydropower function, the linear approximations of the forebay level and tailrace level, and the main difference of hydro models *no hydro binaries*, *aggr*, *indv*, *zones*. 
+
+The variables are: $q_{(h, 1)}$, turbine discharge of hydro generating unit $1$ of $h$; $q_{(h, 2)}$ turbine discharge of unit 2; $s_h$, spillage; $fb_h$ forebay level of the plant; $hg_{(h, 1)}$, $hg_{(h, 2)}$, power outputs of units $1$ and $2$; $v_h$, reservoir volume. The 'pieces' of the piecewise linear approximation are indexed by $i \in I_h$. The variables' coefficients and the constants are given in uppercase $C$. If the hydro generating unit $1$ is operating, i.e., it is committed (it is on), then its turbine discharge must be within the closed range ($\underline{q}, \overline{q}$), and its generation within ($\underline{hg), overline{hg}$).  
 
 $$ fb_h - C^{v,fb} \cdot v_h - C^{const,fb} = 0 $$
 
@@ -64,7 +66,7 @@ For all cases, the planning horizon contains 48 periods of 30 minutes. The numbe
 | :-----:     | :-:                   | :-:               |
 | 687,653     | 714,145               | 55,440            |
 
-Choosing to include binary variables for the hydro units significantly increases the difficulty of the model, although the number of additional binary variables might not reflect it. We summarize bellow the number of additional variables included in the model for each of the hydro models.
+Choosing to include binary variables for the hydro units significantly increases the difficulty of the model, although the number of additional binary variables might not reflect it. We summarize below the number of additional variables included in the model for each of the hydro models.
 
 | Hydro model           | Additional binary variables   | 
 | :-----:               | :-:                           | 
