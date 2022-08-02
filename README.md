@@ -5,12 +5,12 @@ Real unit-commitment data is hard to come by. System operators are generally sec
 
 As a consequence of this lack of real data, researchers usually resort to synthetic systems, which might not accurately represent the difficulties of a real UC.
 
-Thus, this Python package converts real input data used by the Brazilian Independent System Operator (ISO) for the UC into more friendly formats and builds the associated UC with gurobipy in an effort to reduce the gap between industry UCs and academic UCs.
+Thus, this Python package converts real input data used by the Brazilian Independent System Operator (ISO) for the UC into more friendly formats and builds the associated UC with gurobipy in an effort to reduce the gap between industry UCs and academic UCs. The result is a collection of large-scale mixed-integer linear programming problems of UC instances with more than 7,000 buses, 10,000 transmission lines, 300 thermal generating units, and 700 hydro generating units.
 
 Although the UC built with bruc is not exactly the one solved by the Brazilian ISO, it has all the components that make it a challenging optimization problem:
 
 - Binary variables 
-- Network 
+- Network representation
 - Hydro constraints
 
 The optimization model built with bruc is a mixed-integer linear programming (MILP) problem and it can be divided into three main components:
@@ -45,18 +45,21 @@ The last component basically determines how the forbidden zones of operation are
 
 *zones*:              is equivalent to *indv*, however, instead of explictly including one binary variable for each hydro generating unit, it includes one binary variable for each operating zone (as oppose to forbidden zone) of each group of identical hydro generating units (by identical, we mean units with exactly the same operational limits connected to the same bus).
 
+When $a \ne 0$, there are two solutions to $(ax^2 + bx + c = 0)$ and they are 
+$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
+
 # Network model
 We use the common DC representation of the network.
 
 # Overview of the optimization model
 
-The number of constraints and variables slightly varies with the test case used and with the model chosen for the operation of the power plants, an average of the model size is given below for the case with no binary variables for the hydro generating units.
+For all cases, the planning horizon contains 48 periods of 30 minutes. The number of constraints and variables slightly varies with the test case used and with the model chosen for the operation of the hydro plants, an average model size is given below for case DS_ONS_012022_RV1D14 with no binary variables for the hydro generating units (no hydro binaries).
 
 | Constraints | Continuous variables  | Binary variables  |
 | :-----:     | :-:                   | :-:               |
 | 687,653     | 714,145               | 55,440            |
 
-Choosing to include binary variables for the hydro units significantly increases the difficulty of the model, although the number of binary variables might not reflect it. We summarize bellow the number of additional variables included in the model for each of the hydro models.
+Choosing to include binary variables for the hydro units significantly increases the difficulty of the model, although the number of additional binary variables might not reflect it. We summarize bellow the number of additional variables included in the model for each of the hydro models.
 
 | Hydro model           | Additional binary variables   | 
 | :-----:               | :-:                           | 
