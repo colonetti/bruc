@@ -36,10 +36,13 @@ Includes all constraints of the thermal generating units generally used in UC.
 - Status of the plant/unit
 
 The last component basically determines how the forbidden zones of operation are modelled. Currently, we have four options: no hydro binaries, aggr, indv, zones.
+
 *no hydro binaries*:  forbidden zones are neglected. No binary variable is used in the hydro model.
 
 *aggr*:               a single binary variable is used for each hydro plant. It models the first forbidden zone of turbine discharge and generation.
+
 *indv*:               a binary variable is used for each hydro generating unit to model its lower and upper limits on turbine discharge and genertaion.
+
 *zones*:              is equivalent to *indv*, however, instead of explictly including one binary variable for each hydro generating unit, it includes one binary variable for each operating zone (as oppose to forbidden zone) of each group of identical hydro generating units (by identical, we mean units with exactly the same operational limits connected to the same bus).
 
 # Network model
