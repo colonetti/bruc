@@ -51,7 +51,7 @@ $fb_h - \text{C}^{v,fb} \cdot v_h - \text{C}^{const,fb} = 0$
 
 $tr_h - \text{C}^{q,tr} \cdot (q_{(h, 1} + q_{(h, 2} + s_h) - \text{C}^{const,tr} = 0$
 
-$ hg_{(h, 1)} + hg_{(h, 2)} - C^{fb,hpf} \cdot fb_h - C^{q,hpf} \cdot (q_{(h, 1)} + q_{(h, 2)}) - \text{C}^{s, hpf} \cdot s_h - \text{C}^{const,hpf} \leq 0 \forall i \in I $
+$$ hg_{(h, 1)} + hg_{(h, 2)} - C^{fb,hpf} \cdot fb_h - C^{q,hpf} \cdot (q_{(h, 1)} + q_{(h, 2)}) - \text{C}^{s, hpf} \cdot s_h - \text{C}^{const,hpf} \leq 0 \forall i \in I $$
 
 # Network model
 We use the common DC representation of the network.
