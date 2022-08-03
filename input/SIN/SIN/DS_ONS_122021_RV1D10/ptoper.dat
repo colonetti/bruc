@@ -1,0 +1,9 @@
+&   PONTO DE OPERCAO
+&TOPER TPELEM ID  TP.VAR DI HI M DF HF M  VALORVAR 
+&TOPER xxxxxx xxx xxxxxx xx xx x xx xx x xxxxxxxxxx
+& Despacho antecipado por ordem de merito
+&Ajustado conforme SGI 69524-21
+PTOPER USIT    86 GERA    4  0 0 F             175.                                                 
+PTOPER USIT    15 GERA    4  0 0 F               0.                                                 
+& Despacho antecipado por ordem de merito
+PTOPER USIT   224 GERA    4  0 0 F          1515.64

@@ -1,0 +1,15 @@
+&   PONTO DE OPERCAO
+&TOPER TPELEM ID  TP.VAR DI HI M DF HF M  VALORVAR 
+&TOPER xxxxxx xxx xxxxxx xx xx x xx xx x xxxxxxxxxx
+&Despacho para atender os critérios de segurança durante o Carnaval
+PTOPER USIT    86 GERA   01  0 0 F             150.                                                 
+PTOPER USIT    86 GERA   02 12 0 F              60.                                                 
+PTOPER USIT    86 GERA   02 12 1 F               0.                                                 
+&Despacho para atender os critérios de segurança durante o Carnaval
+PTOPER USIT    15 GERA   01  0 0 F             150.                                                 
+PTOPER USIT    15 GERA   02 12 0 F              75.                                                 
+PTOPER USIT    15 GERA   02 12 1 F              75.                                                 
+PTOPER USIT    15 GERA   02 13 0 F              51.                                                 
+PTOPER USIT    15 GERA   02 13 1 F               0.                                                 
+& Sem despacho antecipado por ordem de merito
+PTOPER USIT   224 GERA   01  0 0 F               0.

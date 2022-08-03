@@ -1,0 +1,9 @@
+<BEGIN>;;;;;;;;;;;
+<Hydro pumps>;;;;;;;;;;;
+Name;Hydro reservoir ID;Hydro reservoir name;Unit ID;Bus ID;Minimum pumping discharge (m3/s);Maximum pumping discharge (m3/s);Conversion rate MW/(m3/s/) for pumps;Downriver reservoir of pump units;Upriver reservoir of pump units;Water travel time in pumping (h);Comments
+PUMP-VIGÁRIO;181;SANTANA;1;262;0;190;0.44;SANTANA;VIGARIO;0;
+PUMP-SANTA CECÍLIA;125;SANTA CECÍLIA;1;260;0;160;0.2;SANTA CECÍLIA;SANTANA;2;
+PUMP-PEDREIRA;109;PEDREIRA;1;483;0;395;0.25;PEDREIRA;BILLINGS;0;
+PUMP-TRAIÇÃO;108;TRAIÇÃO;1;483;0;270;0.3;TRAIÇÃO;PEDREIRA;0;
+</Hydro pumps>;;;;;;;;;;;
+</END>;;;;;;;;;;;

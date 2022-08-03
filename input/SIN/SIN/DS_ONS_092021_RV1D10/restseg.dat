@@ -1,0 +1,807 @@
+&TABELAS PARA OPERACAO EM N-1
+&
+&=============================================================================================================================
+& Fluxo Colinas Miracema(FCOMC)  Nº1
+& Em função de geracao de Tucurui
+&
+&ABSEG INDICE NUM   DESCRICAO
+&XXXXX XXXXXX XXXXX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+TABSEG INDICE     1 Fluxo Colinas Miracema(FCOMC)
+&
+&ABSEG TABELA NUM   TIPO1  TIPO2  NUM   %CARG
+&XXXXX XXXXXX XXXXX XXXXXX XXXXXX XXXXX XXXXX
+TABSEG TABELA     1 CONTR  DREF    9035
+TABSEG TABELA     1 PARAM  DREF    9031
+&
+&ABSEG LIMITE NUM   VAR PARM 1 
+&XXXXX XXXXXX XXXXX XXXXXXXXXX 
+TABSEG LIMITE     1          0 
+TABSEG LIMITE     1       1500 
+TABSEG LIMITE     1    9999999 
+&
+&ABSEG CELULA NUM   LIMITE     F    PAR.1.INF   PAR.1.SUP     
+&XXXXX XXXXXX XXXXX XXXXXXXXXX X    XXXXXXXXXX  XXXXXXXXXX    
+TABSEG CELULA     1       3700               0        1500                                 
+TABSEG CELULA     1       4000            1500     9999999
+&
+&
+& ==========================================================================================================================
+& Fluxo Sudeste - Centro-Oeste (FSECO) Nº6
+&
+&ABSEG INDICE NUM   DESCRICAO
+&XXXXX XXXXXX XXXXX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+TABSEG INDICE     6 Fluxo Sudeste - Centro-Oeste (FSECO)
+&
+&ABSEG TABELA NUM   TIPO1  TIPO2  NUM   %CARG
+&XXXXX XXXXXX XXXXX XXXXXX XXXXXX XXXXX XXXXX
+TABSEG TABELA     6 CONTR  DREF    9017
+TABSEG TABELA     6 PARAM  CARGA    SIN 
+&
+&ABSEG LIMITE NUM   VAR PARM 1 
+&XXXXX XXXXXX XXXXX XXXXXXXXXX 
+TABSEG LIMITE     6          0 
+TABSEG LIMITE     6      60000 
+TABSEG LIMITE     6    9999999 
+&
+&ABSEG CELULA NUM   LIMITE     F    PAR.1.INF   PAR.1.SUP  
+&XXXXX XXXXXX XXXXX XXXXXXXXXX X    XXXXXXXXXX  XXXXXXXXXX 
+TABSEG CELULA     6       4100               0       60000 
+TABSEG CELULA     6       3800           60000     9999999 
+&
+& ==========================================================================================================================
+& Fluxo Ji-Paraná - Pimenta Bueno (FJIPB) Nº7
+&
+&ABSEG INDICE NUM   DESCRICAO
+&XXXXX XXXXXX XXXXX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+TABSEG INDICE     7 Fluxo Ji-Paraná - Pimenta Bueno em função do back-to-back
+&
+&ABSEG TABELA NUM   TIPO1  TIPO2  NUM   %CARG
+&XXXXX XXXXXX XXXXX XXXXXX XXXXXX XXXXX XXXXX
+TABSEG TABELA     7 CONTR  DREF    9004
+TABSEG TABELA     7 PARAM  DREF    9003
+&
+&ABSEG LIMITE NUM   VAR PARM 1 
+&XXXXX XXXXXX XXXXX XXXXXXXXXX 
+TABSEG LIMITE     7        500 
+TABSEG LIMITE     7        600 
+TABSEG LIMITE     7        700 
+TABSEG LIMITE     7        800 
+&
+&ABSEG CELULA NUM   LIMITE     F    PAR.1.INF   PAR.1.SUP  
+&XXXXX XXXXXX XXXXX XXXXXXXXXX X    XXXXXXXXXX  XXXXXXXXXX 
+TABSEG CELULA     7        400             500         600  
+TABSEG CELULA     7        350             600         700  
+TABSEG CELULA     7        300             700         800  
+&
+& ==========================================================================================================================
+& Fluxo Manaus Nº 8
+& (-) FMANAUS 
+&
+&ABSEG INDICE NUM   DESCRICAO
+&XXXXX XXXXXX XXXXX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+TABSEG INDICE     8 (-) FMANAUS
+&
+&ABSEG TABELA NUM   TIPO1  TIPO2  NUM   %CARG
+&XXXXX XXXXXX XXXXX XXXXXX XXXXXX XXXXX XXXXX
+TABSEG TABELA     8 CONTR  DREF    9023
+TABSEG TABELA     8 PARAM  DREF    9037      
+&
+&ABSEG LIMITE NUM   VAR PARM 1 
+&XXXXX XXXXXX XXXXX XXXXXXXXXX 
+TABSEG LIMITE     8          0 
+TABSEG LIMITE     8         90  
+TABSEG LIMITE     8        180 
+TABSEG LIMITE     8        285 
+TABSEG LIMITE     8    9999999  
+&
+&ABSEG CELULA NUM   LIMITE     F    PAR.1.INF   PAR.1.SUP     
+&XXXXX XXXXXX XXXXX XXXXXXXXXX X    XXXXXXXXXX  XXXXXXXXXX    
+TABSEG CELULA     8        500             285     9999999  
+TABSEG CELULA     8        400             180         285 
+TABSEG CELULA     8        300              90         180 
+TABSEG CELULA     8        250               0          90       
+&
+& ==========================================================================================================================
+& Fluxo Jorge Teixeira Maua III Nº9
+& (-) FMTJT
+&
+&ABSEG INDICE NUM   DESCRICAO
+&XXXXX XXXXXX XXXXX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+TABSEG INDICE     9 FMTJT
+&
+&ABSEG TABELA NUM   TIPO1  TIPO2  NUM   %CARG
+&XXXXX XXXXXX XXXXX XXXXXX XXXXXX XXXXX XXXXX
+TABSEG TABELA     9 CONTR  DREF    9028
+TABSEG TABELA     9 PARAM  DREF    9037      
+&
+&ABSEG LIMITE NUM   VAR PARM 1 
+&XXXXX XXXXXX XXXXX XXXXXXXXXX 
+TABSEG LIMITE     9          0 
+TABSEG LIMITE     9        120 
+TABSEG LIMITE     9        190  
+TABSEG LIMITE     9      99999  
+&
+&ABSEG CELULA NUM   LIMITE     F    PAR.1.INF   PAR.1.SUP     
+&XXXXX XXXXXX XXXXX XXXXXXXXXX X    XXXXXXXXXX  XXXXXXXXXX     
+TABSEG CELULA     9        400             190       99999  
+TABSEG CELULA     9        300             120         190 
+TABSEG CELULA     9        200               0         120
+&
+& ==========================================================================================================================
+& Limite de Fluxo na tranformação 345/230 kV da SE Baixada Santista Nº10
+& Transformador Baixada Santista 345/230 kV (FTR1-BSA 345/230 kV)
+&
+&ABSEG INDICE NUM   DESCRICAO
+&XXXXX XXXXXX XXXXX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+TABSEG INDICE    10 F(TR1-BSA 345/230 kV) + 0,87 F(PIR-INT1e2)
+&
+&ABSEG TABELA NUM   TIPO1  TIPO2  NUM   %CARG
+&XXXXX XXXXXX XXXXX XXXXXX XXXXXX XXXXX XXXXX
+TABSEG TABELA    10 CONTR  DREF    9050
+TABSEG TABELA    10 PARAM  DREF    9049
+&
+&ABSEG LIMITE NUM   VAR PARM 1 
+&XXXXX XXXXXX XXXXX XXXXXXXXXX 
+TABSEG LIMITE    10   -9999999 
+TABSEG LIMITE    10        318 
+TABSEG LIMITE    10    9999999 
+&
+&ABSEG CELULA NUM   LIMITE     F    PAR.1.INF   PAR.1.SUP   
+&XXXXX XXXXXX XXXXX XXXXXXXXXX X    XXXXXXXXXX  XXXXXXXXXX  
+TABSEG CELULA    10        580        -9999999         318  
+TABSEG CELULA    10        658             318     9999999
+&
+& ==========================================================================================================================
+& Controle de carregamento da LT 230 kV Catu / Governador Mangabeira Nº11
+&
+&ABSEG INDICE NUM   DESCRICAO
+&XXXXX XXXXXX XXXXX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+TABSEG INDICE    11 FLUXO LT 230 kV Catu / Governador Mangabeira
+&
+&ABSEG TABELA NUM   TIPO1  TIPO2  NUM   %CARG
+&XXXXX XXXXXX XXXXX XXXXXX XXXXXX XXXXX XXXXX
+TABSEG TABELA    11 CONTR  DREF    9053
+TABSEG TABELA    11 PARAM  DREF    9054
+&
+&ABSEG LIMITE NUM   VAR PARM 1
+&XXXXX XXXXXX XXXXX XXXXXXXXXX
+TABSEG LIMITE    11          0
+TABSEG LIMITE    11       2100
+TABSEG LIMITE    11    9999999   
+&
+&ABSEG CELULA NUM   LIMITE     F    PAR.1.INF   PAR.1.SUP  
+&XXXXX XXXXXX XXXXX XXXXXXXXXX X    XXXXXXXXXX  XXXXXXXXXX 
+TABSEG CELULA    11      99999               0        2100
+TABSEG CELULA    11        165            2100     9999999
+&
+& ==========================================================================================================================
+& Limite Pocoes 3 - Padre Paraiso 2 Nº 12
+&
+&ABSEG INDICE NUM   DESCRICAO
+&XXXXX XXXXXX XXXXX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+TABSEG INDICE    12 FLUXO LT 500 kV Pocoes 3 - Padre Paraiso 2
+&
+&ABSEG TABELA NUM   TIPO1  TIPO2  NUM   %CARG
+&XXXXX XXXXXX XXXXX XXXXXX XXXXXX XXXXX XXXXX
+TABSEG TABELA    12 CONTR  DREF    9013
+TABSEG TABELA    12 PARAM  CARGA    SIN 
+&
+&ABSEG LIMITE NUM   VAR PARM 1 
+&XXXXX XXXXXX XXXXX XXXXXXXXXX 
+TABSEG LIMITE    12          0 
+TABSEG LIMITE    12      72000
+TABSEG LIMITE    12      82000
+TABSEG LIMITE    12      99999
+&
+&ABSEG CELULA NUM   LIMITE     F    PAR.1.INF   PAR.1.SUP   
+&XXXXX XXXXXX XXXXX XXXXXXXXXX X    XXXXXXXXXX  XXXXXXXXXX  
+TABSEG CELULA    12       1700               0       72000  
+TABSEG CELULA    12       1800           72000       82000  
+TABSEG CELULA    12       1900           82000       99999  
+&
+& ==========================================================================================================================
+&& Limite Foz do Iguacu - Ivaipora (FIV)  Nº 16
+&& Sem atuacao do ERAC
+&&
+&&ABSEG INDICE NUM   DESCRICAO
+&&XXXXX XXXXXX XXXXX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+&TABSEG INDICE    16 Limite FIV Sem atuacao do ERAC
+&&
+&&ABSEG TABELA NUM   TIPO1  TIPO2  NUM   %CARG
+&&XXXXX XXXXXX XXXXX XXXXXX XXXXXX XXXXX XXXXX
+&TABSEG TABELA    16 CONTR  DREF    9065
+&TABSEG TABELA    16 PARAM  DREF    9010
+&TABSEG TABELA    16 PARAM  CARGA    SIN 
+&&
+&&ABSEG LIMITE NUM   VAR PARM 1 VAR PARM 2 
+&&XXXXX XXXXXX XXXXX XXXXXXXXXX XXXXXXXXXX 
+&TABSEG LIMITE    16       5040          0
+&TABSEG LIMITE    16       5760      50000
+&TABSEG LIMITE    16       6480      
+&TABSEG LIMITE    16       7200      
+&&
+&&ABSEG CELULA NUM   LIMITE     F    PAR.1.INF   PAR.1.SUP   PAR.2.INF   PAR.2.SUP   
+&&XXXXX XXXXXX XXXXX XXXXXXXXXX X    XXXXXXXXXX  XXXXXXXXXX  XXXXXXXXXX  XXXXXXXXXX  
+&TABSEG CELULA    16       5300            5040        5760           0       50000
+&TABSEG CELULA    16       5400            5760        6480           0       50000
+&TABSEG CELULA    16       5500            6480        7200           0       50000
+&&
+&& ==========================================================================================================================
+&& Limite Fornecimento para Sudeste (FSE)   Nº 17
+&& Sem atuacao do ERAC
+&&
+&&ABSEG INDICE NUM   DESCRICAO
+&&XXXXX XXXXXX XXXXX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+&TABSEG INDICE    17 Limite FSE Sem atuacao do ERAC 
+&&
+&&ABSEG TABELA NUM   TIPO1  TIPO2  NUM   %CARG
+&&XXXXX XXXXXX XXXXX XXXXXX XXXXXX XXXXX XXXXX
+&TABSEG TABELA    17 CONTR  DREF    9048
+&TABSEG TABELA    17 PARAM  DREF    9010
+&TABSEG TABELA    17 PARAM  CARGA    SIN 
+&&
+&&ABSEG LIMITE NUM   VAR PARM 1 VAR PARM 2 
+&&XXXXX XXXXXX XXXXX XXXXXXXXXX XXXXXXXXXX 
+&TABSEG LIMITE    17       5040          0
+&TABSEG LIMITE    17       5760      50000
+&TABSEG LIMITE    17       6480      
+&TABSEG LIMITE    17       7200      
+&&
+&&ABSEG CELULA NUM   LIMITE     F    PAR.1.INF   PAR.1.SUP   PAR.2.INF   PAR.2.SUP   
+&&XXXXX XXXXXX XXXXX XXXXXXXXXX X    XXXXXXXXXX  XXXXXXXXXX  XXXXXXXXXX  XXXXXXXXXX  
+&TABSEG CELULA    17       5000            5040        5760           0       50000
+&TABSEG CELULA    17       5400            5760        6480           0       50000
+&TABSEG CELULA    17       5700            6480        7200           0       50000
+&
+& ==========================================================================================================================
+& Limite Xingu Jurupari (FXGJP) Nº 18
+& Em funcao da perda dupla LT 500KV Xingu-Tucurui
+&
+&ABSEG INDICE NUM   DESCRICAO
+&XXXXX XXXXXX XXXXX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+TABSEG INDICE    18 FXGJP em funcao da perda dupla Xingu-Tucurui 
+&
+&ABSEG TABELA NUM   TIPO1  TIPO2  NUM   %CARG
+&XXXXX XXXXXX XXXXX XXXXXX XXXXXX XXXXX XXXXX
+TABSEG TABELA    18 CONTR  DREF    9019
+TABSEG TABELA    18 PARAM  RE       854
+TABSEG TABELA    18 PARAM  DREF    9046
+TABSEG TABELA    18 PARAM  DREF    9060 
+&
+&ABSEG LIMITE NUM   VAR PARM 1 VAR PARM 2 VAR PARM 3 
+&XXXXX XXXXXX XXXXX XXXXXXXXXX XXXXXXXXXX XXXXXXXXXX 
+TABSEG LIMITE    18          0          0        200
+TABSEG LIMITE    18       1500      99999       1000
+TABSEG LIMITE    18      99999                  2500
+TABSEG LIMITE    18                             3270                      
+&
+&ABSEG CELULA NUM   LIMITE     F    PAR.1.INF   PAR.1.SUP   PAR.2.INF   PAR.2.SUP   PAR.3.INF   PAR.3.SUP   
+&XXXXX XXXXXX XXXXX XXXXXXXXXX X    XXXXXXXXXX  XXXXXXXXXX  XXXXXXXXXX  XXXXXXXXXX  XXXXXXXXXX  XXXXXXXXXX  
+TABSEG CELULA    18        450               0        1500           0       99999         200        1000      
+TABSEG CELULA    18        300               0        1500           0       99999        1000        2500
+TABSEG CELULA    18          0               0        1500           0       99999        2500        3270
+TABSEG CELULA    18        700            1500       99999           0       99999         200        1000
+TABSEG CELULA    18        500            1500       99999           0       99999        1000        2500
+TABSEG CELULA    18        200            1500       99999           0       99999        2500        3270
+&
+& ==========================================================================================================================
+& Fluxo Samuel - Ariquemes (IO-ON.N.ACRO)  Nº19
+& Em funcao da geração de S.Antônio 230kV
+&
+&ABSEG INDICE NUM   DESCRICAO
+&XXXXX XXXXXX XXXXX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+TABSEG INDICE    19 Fluxo Samuel - Ariquemes
+&
+&ABSEG TABELA NUM   TIPO1  TIPO2  NUM   %CARG
+&XXXXX XXXXXX XXXXX XXXXXX XXXXXX XXXXX XXXXX
+TABSEG TABELA    19 CONTR  DREF    9051
+TABSEG TABELA    19 PARAM  DREF    9052
+&
+&ABSEG LIMITE NUM   VAR PARM 1
+&XXXXX XXXXXX XXXXX XXXXXXXXXX
+TABSEG LIMITE    19          0
+TABSEG LIMITE    19         42
+TABSEG LIMITE    19         84
+TABSEG LIMITE    19    9999999
+&
+&ABSEG CELULA NUM   LIMITE     F    PAR.1.INF   PAR.1.SUP  
+&XXXXX XXXXXX XXXXX XXXXXXXXXX X    XXXXXXXXXX  XXXXXXXXXX 
+TABSEG CELULA    19        510               0          42
+TABSEG CELULA    19        550              42          84
+TABSEG CELULA    19        600              84     9999999
+&
+& ==========================================================================================================================
+& Fluxo Bateias (FBTA) Nº20
+& Em funcao da geracao GIPU e BIPS
+&
+&ABSEG INDICE NUM   DESCRICAO
+&XXXXX XXXXXX XXXXX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+TABSEG INDICE    20 Fluxo Bateias
+&
+&ABSEG TABELA NUM   TIPO1  TIPO2  NUM   %CARG
+&XXXXX XXXXXX XXXXX XXXXXX XXXXXX XXXXX XXXXX
+TABSEG TABELA    20 CONTR  DREF    9073
+TABSEG TABELA    20 PARAM  DREF    9010
+TABSEG TABELA    20 PARAM  DREF    9012
+&
+&ABSEG LIMITE NUM   VAR PARM 1 VAR PARM 2
+&XXXXX XXXXXX XXXXX XXXXXXXXXX XXXXXXXXXX
+TABSEG LIMITE    20          0          0
+TABSEG LIMITE    20       4000      14000
+TABSEG LIMITE    20      99999      99999
+&
+&ABSEG CELULA NUM   LIMITE     F    PAR.1.INF   PAR.1.SUP   PAR.2.INF   PAR.2.SUP  
+&XXXXX XXXXXX XXXXX XXXXXXXXXX X    XXXXXXXXXX  XXXXXXXXXX  XXXXXXXXXX  XXXXXXXXXX 
+TABSEG CELULA    20       3400               0        4000           0       14000
+TABSEG CELULA    20       3300               0        4000       14000       99999
+TABSEG CELULA    20       3600            4000       99999           0       14000
+TABSEG CELULA    20       3500            4000       99999       14000       99999
+&
+& ==========================================================================================================================
+& Limite Elo CC de Furnas (Itaipu 50hz) em funcao da carga da ANDE [LIMITE MAXIMO] Nº22
+&
+&ABSEG INDICE NUM   DESCRICAO
+&XXXXX XXXXXX XXXXX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+TABSEG INDICE    22 Fluxo Elo CC de Furnas
+&
+&ABSEG TABELA NUM   TIPO1  TIPO2  NUM   %CARG
+&XXXXX XXXXXX XXXXX XXXXXX XXXXXX XXXXX XXXXX
+TABSEG TABELA    22 CONTR  DREF    9014       
+TABSEG TABELA    22 PARAM  RE       853
+TABSEG TABELA    22 PARAM  RE       857
+&
+&ABSEG LIMITE NUM   VAR PARM 1 VAR PARM 2
+&XXXXX XXXXXX XXXXX XXXXXXXXXX XXXXXXXXXX
+TABSEG LIMITE    22          0          0
+TABSEG LIMITE    22       1000       2500
+TABSEG LIMITE    22       1200       3000
+TABSEG LIMITE    22       1400      99999
+TABSEG LIMITE    22       1500           
+TABSEG LIMITE    22       1600           
+TABSEG LIMITE    22       1800           
+TABSEG LIMITE    22       2000           
+TABSEG LIMITE    22       2200           
+TABSEG LIMITE    22       2400           
+TABSEG LIMITE    22      99999            
+&
+&ABSEG CELULA NUM   LIMITE     F    PAR.1.INF   PAR.1.SUP   PAR.2.INF   PAR.2.SUP 
+&XXXXX XXXXXX XXXXX XXXXXXXXXX X    XXXXXXXXXX  XXXXXXXXXX  XXXXXXXXXX  XXXXXXXXXX
+TABSEG CELULA    22       1300               0        1000           0        2500
+TABSEG CELULA    22       1700               0        1000        2500        3000
+TABSEG CELULA    22       1200            1000        1200           0        2500
+TABSEG CELULA    22       1700            1000        1200        2500        3000
+TABSEG CELULA    22       1100            1200        1400           0        2500
+TABSEG CELULA    22       1600            1200        1400        2500        3000
+TABSEG CELULA    22       1000            1400        1500           0        2500
+TABSEG CELULA    22       1500            1500        1600        2500        3000
+TABSEG CELULA    22       1000            1500        1600           0        2500
+TABSEG CELULA    22       1500            1500        1600        2500        3000
+TABSEG CELULA    22       1400            1600        1800        2500        3000
+TABSEG CELULA    22       1300            1800        2000        2500        3000
+TABSEG CELULA    22       1200            2000        2200        2500        3000
+TABSEG CELULA    22       1100            2200        2400        2500        3000
+TABSEG CELULA    22       6300            2400       99999           0       99999
+TABSEG CELULA    22       6300               0       99999        3000       99999
+&                                                                                  
+& ==========================================================================================================================
+& Limite Elo CC de Furnas (Itaipu 50hz) em funcao da carga da ANDE [LIMITE MINIMO] Nº23
+&
+&ABSEG INDICE NUM   DESCRICAO
+&XXXXX XXXXXX XXXXX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+TABSEG INDICE    23 Fluxo Elo CC de Furnas
+&
+&ABSEG TABELA NUM   TIPO1  TIPO2  NUM   %CARG
+&XXXXX XXXXXX XXXXX XXXXXX XXXXXX XXXXX XXXXX
+TABSEG TABELA    23 CONTR  DREF    9015       
+TABSEG TABELA    23 PARAM  RE       852
+TABSEG TABELA    23 PARAM  RE       858
+&
+&ABSEG LIMITE NUM   VAR PARM 1 VAR PARM 2
+&XXXXX XXXXXX XXXXX XXXXXXXXXX XXXXXXXXXX
+TABSEG LIMITE    23          0          0
+TABSEG LIMITE    23       1000       2500
+TABSEG LIMITE    23       1200       3000
+TABSEG LIMITE    23       1400      99999
+TABSEG LIMITE    23       1500           
+TABSEG LIMITE    23       1600           
+TABSEG LIMITE    23       1800           
+TABSEG LIMITE    23       2000           
+TABSEG LIMITE    23       2200           
+TABSEG LIMITE    23       2400           
+TABSEG LIMITE    23      99999            
+&
+&ABSEG CELULA NUM   LIMITE     F    PAR.1.INF   PAR.1.SUP   PAR.2.INF   PAR.2.SUP 
+&XXXXX XXXXXX XXXXX XXXXXXXXXX X    XXXXXXXXXX  XXXXXXXXXX  XXXXXXXXXX  XXXXXXXXXX
+TABSEG CELULA    23       -500               0        1000           0        2500
+TABSEG CELULA    23       -400               0        1000        2500        3000
+TABSEG CELULA    23       -500            1000        1200           0        2500
+TABSEG CELULA    23       -400            1000        1200        2500        3000
+TABSEG CELULA    23       -500            1200        1400           0        2500
+TABSEG CELULA    23       -400            1200        1400        2500        3000
+TABSEG CELULA    23       -700            1400        1500           0        2500
+TABSEG CELULA    23       -400            1500        1600        2500        3000
+TABSEG CELULA    23       -900            1500        1600           0        2500
+TABSEG CELULA    23       -700            1500        1600        2500        3000
+TABSEG CELULA    23       -400            1600        1800        2500        3000
+TABSEG CELULA    23       -400            1800        2000        2500        3000
+TABSEG CELULA    23       -400            2000        2200        2500        3000
+TABSEG CELULA    23       -700            2200        2400        2500        3000
+TABSEG CELULA    23       -320            2400       99999           0       99999
+TABSEG CELULA    23       -320               0       99999        3000       99999
+&
+& ==========================================================================================================================
+&& Fluxo FNS Nº24
+&& Em função da geração de Belo Monte e somatorio dos bipolos de Xingu
+&& Condicao: operacao monopolar de um dos bipolos de Xingu
+&&ABSEG INDICE NUM   DESCRICAO
+&&XXXXX XXXXXX XXXXX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+&TABSEG INDICE    24 FNS em funcao dos bipolos FXGET + FXGTR e Belo Monte
+&&
+&&ABSEG TABELA NUM   TIPO1  TIPO2  NUM   %CARG
+&&XXXXX XXXXXX XXXXX XXXXXX XXXXXX XXXXX XXXXX
+&TABSEG TABELA    24 CONTR  DREF    9007 
+&TABSEG TABELA    24 PARAM  DREF    9042 
+&TABSEG TABELA    24 PARAM  DREF    9038 
+&&
+&&ABSEG LIMITE NUM   VAR PARM 1 VAR PARM 2
+&&XXXXX XXXXXX XXXXX XXXXXXXXXX XXXXXXXXXX
+&TABSEG LIMITE    24          0          0 
+&TABSEG LIMITE    24       4000        540 
+&TABSEG LIMITE    24      99999      99999
+&&
+&&ABSEG CELULA NUM   LIMITE     F    PAR.1.INF   PAR.1.SUP   PAR.2.INF   PAR.2.SUP                                    
+&&XXXXX XXXXXX XXXXX XXXXXXXXXX X    XXXXXXXXXX  XXXXXXXXXX  XXXXXXXXXX  XXXXXXXXXX
+&TABSEG CELULA    24       4700               0        4000           0       99999
+&TABSEG CELULA    24       4295            4000       99999           0         540
+&TABSEG CELULA    24       4700            4000       99999         540       99999
+&&
+&& ==========================================================================================================================
+&& FNS + FNESE Nº 25
+&& Em funcao da geracao de S. Mesa e B. Monte e do somatorio dos bipolos de Xingu
+&& Condicao: operacao monopolar de um dos bipolos de Xingu
+&&ABSEG INDICE NUM   DESCRICAO
+&&XXXXX XXXXXX XXXXX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+&TABSEG INDICE    25 FNS+FNESE em funcao da geracao de S. Mesa e B. Monte
+&&
+&&ABSEG TABELA NUM   TIPO1  TIPO2  NUM   %CARG
+&&XXXXX XXXXXX XXXXX XXXXXX XXXXXX XXXXX XXXXX
+&TABSEG TABELA    25 CONTR  DREF    9081 
+&TABSEG TABELA    25 PARAM  DREF    9042 
+&TABSEG TABELA    25 PARAM  DREF    9036 
+&TABSEG TABELA    25 PARAM  DREF    9038 
+&&
+&&ABSEG LIMITE NUM   VAR PARM 1 VAR PARM 2 VAR PARM 3 
+&&XXXXX XXXXXX XXXXX XXXXXXXXXX XXXXXXXXXX XXXXXXXXXX 
+&TABSEG LIMITE    25          0          0          0
+&TABSEG LIMITE    25       4500        480        540
+&TABSEG LIMITE    25      99999        720       1080
+&TABSEG LIMITE    25                  1000      99999                      
+&TABSEG LIMITE    25                 99999                                 
+&&
+&&ABSEG CELULA NUM   LIMITE     F    PAR.1.INF   PAR.1.SUP   PAR.2.INF   PAR.2.SUP   PAR.3.INF   PAR.3.SUP   
+&&XXXXX XXXXXX XXXXX XXXXXXXXXX X    XXXXXXXXXX  XXXXXXXXXX  XXXXXXXXXX  XXXXXXXXXX  XXXXXXXXXX  XXXXXXXXXX  
+&TABSEG CELULA    25       8000               0        4500           0       99999           0       99999      
+&TABSEG CELULA    25       5975            4500       99999           0         480           0         540
+&TABSEG CELULA    25       5775            4500       99999         480         720           0         540
+&TABSEG CELULA    25       5675            4500       99999         720        1000           0         540
+&TABSEG CELULA    25       6380            4500       99999           0         480         540        1080
+&TABSEG CELULA    25       6180            4500       99999         480         720         540        1080
+&TABSEG CELULA    25       6080            4500       99999         720        1000         540        1080
+&TABSEG CELULA    25       6785            4500       99999           0         480        1080       99999
+&TABSEG CELULA    25       6585            4500       99999         480         720        1080       99999
+&TABSEG CELULA    25       6485            4500       99999         720        1000        1080       99999
+&&
+& ==========================================================================================================================
+&
+& Fluxo Colinas Miracema(FCOMC)  Nº101
+& Em função de geracao de Tucurui
+&
+&ABSEG INDICE NUM   DESCRICAO
+&XXXXX XXXXXX XXXXX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+&TABSEG INDICE   101 Fluxo Colinas Miracema(FCOMC)
+&
+&ABSEG TABELA NUM   TIPO1  TIPO2  NUM   %CARG
+&XXXXX XXXXXX XXXXX XXXXXX XXXXXX XXXXX XXXXX
+&TABSEG TABELA   101 CONTR  RE       935
+&TABSEG TABELA   101 PARAM  RE       931
+&
+&ABSEG LIMITE NUM   VAR PARM 1 
+&XXXXX XXXXXX XXXXX XXXXXXXXXX 
+&TABSEG LIMITE   101          0 
+&TABSEG LIMITE   101       1500 
+&TABSEG LIMITE   101    9999999 
+&
+&ABSEG CELULA NUM   LIMITE     F    PAR.1.INF   PAR.1.SUP     
+&XXXXX XXXXXX XXXXX XXXXXXXXXX X    XXXXXXXXXX  XXXXXXXXXX    
+&TABSEG CELULA   101       3700               0        1500                                 
+&TABSEG CELULA   101       4000            1500     9999999
+&
+& ==========================================================================================================================
+& Fluxo Sudeste - Centro-Oeste (FSECO) Nº106
+&
+&ABSEG INDICE NUM   DESCRICAO
+&XXXXX XXXXXX XXXXX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+&TABSEG INDICE   106 Fluxo Sudeste - Centro-Oeste (FSECO)
+&
+&ABSEG TABELA NUM   TIPO1  TIPO2  NUM   %CARG
+&XXXXX XXXXXX XXXXX XXXXXX XXXXXX XXXXX XXXXX
+&TABSEG TABELA   106 CONTR  RE       917
+&TABSEG TABELA   106 PARAM  CARGA    SIN 
+&
+&ABSEG LIMITE NUM   VAR PARM 1 
+&XXXXX XXXXXX XXXXX XXXXXXXXXX 
+&TABSEG LIMITE   106          0 
+&TABSEG LIMITE   106      60000 
+&TABSEG LIMITE   106    9999999 
+&
+&ABSEG CELULA NUM   LIMITE     F    PAR.1.INF   PAR.1.SUP  
+&XXXXX XXXXXX XXXXX XXXXXXXXXX X    XXXXXXXXXX  XXXXXXXXXX 
+&TABSEG CELULA   106       4100               0       60000 
+&TABSEG CELULA   106       3800           60000     9999999 
+&
+& ==========================================================================================================================
+& Fluxo Manaus Nº108
+& (-) FMANAUS 
+&
+&ABSEG INDICE NUM   DESCRICAO
+&XXXXX XXXXXX XXXXX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+&TABSEG INDICE   108 (-) FMANAUS
+&
+&ABSEG TABELA NUM   TIPO1  TIPO2  NUM   %CARG
+&XXXXX XXXXXX XXXXX XXXXXX XXXXXX XXXXX XXXXX
+&TABSEG TABELA   108 CONTR  RE       923
+&TABSEG TABELA   108 PARAM  RE       937      
+&
+&ABSEG LIMITE NUM   VAR PARM 1 
+&XXXXX XXXXXX XXXXX XXXXXXXXXX 
+&TABSEG LIMITE   108          0 
+&TABSEG LIMITE   108         90  
+&TABSEG LIMITE   108        180 
+&TABSEG LIMITE   108        285 
+&TABSEG LIMITE   108    9999999  
+&
+&ABSEG CELULA NUM   LIMITE     F    PAR.1.INF   PAR.1.SUP     
+&XXXXX XXXXXX XXXXX XXXXXXXXXX X    XXXXXXXXXX  XXXXXXXXXX    
+&TABSEG CELULA   108        500             285     9999999  
+&TABSEG CELULA   108        400             180         285 
+&TABSEG CELULA   108        300              90         180 
+&TABSEG CELULA   108        250               0          90       
+&
+&
+& ==========================================================================================================================
+& Limite Xingu Jurupari (FXGJP) Nº 118
+& Em funcao da perda dupla LT 500KV Xingu-Tucurui
+&
+&ABSEG INDICE NUM   DESCRICAO
+&XXXXX XXXXXX XXXXX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+&TABSEG INDICE   118 FXGJP em funcao da perda dupla Xingu-Tucurui 
+&
+&ABSEG TABELA NUM   TIPO1  TIPO2  NUM   %CARG
+&XXXXX XXXXXX XXXXX XXXXXX XXXXXX XXXXX XXXXX
+&TABSEG TABELA   118 CONTR  RE       919
+&TABSEG TABELA   118 PARAM  RE       854
+&TABSEG TABELA   118 PARAM  RE       946
+&TABSEG TABELA   118 PARAM  RE       960 
+&
+&ABSEG LIMITE NUM   VAR PARM 1 VAR PARM 2 VAR PARM 3 
+&XXXXX XXXXXX XXXXX XXXXXXXXXX XXXXXXXXXX XXXXXXXXXX 
+&TABSEG LIMITE   118          0          0        200
+&TABSEG LIMITE   118       1500      99999       1000
+&TABSEG LIMITE   118      99999                  2500
+&TABSEG LIMITE   118                             3270                      
+&
+&ABSEG CELULA NUM   LIMITE     F    PAR.1.INF   PAR.1.SUP   PAR.2.INF   PAR.2.SUP   PAR.3.INF   PAR.3.SUP   
+&XXXXX XXXXXX XXXXX XXXXXXXXXX X    XXXXXXXXXX  XXXXXXXXXX  XXXXXXXXXX  XXXXXXXXXX  XXXXXXXXXX  XXXXXXXXXX  
+&TABSEG CELULA   118        450               0        1500           0       99999         200        1000      
+&TABSEG CELULA   118        300               0        1500           0       99999        1000        2500
+&TABSEG CELULA   118          0               0        1500           0       99999        2500        3270
+&TABSEG CELULA   118        700            1500       99999           0       99999         200        1000
+&TABSEG CELULA   118        500            1500       99999           0       99999        1000        2500
+&TABSEG CELULA   118        200            1500       99999           0       99999        2500        3270
+&&
+&&
+& ==========================================================================================================================
+& Limite Elo CC de Furnas (Itaipu 50hz) em funcao da carga da ANDE [LIMITE MAXIMO] Nº122
+&
+&ABSEG INDICE NUM   DESCRICAO
+&XXXXX XXXXXX XXXXX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+&TABSEG INDICE   122 Fluxo Elo CC de Furnas
+&
+&ABSEG TABELA NUM   TIPO1  TIPO2  NUM   %CARG
+&XXXXX XXXXXX XXXXX XXXXXX XXXXXX XXXXX XXXXX
+&TABSEG TABELA   122 CONTR  RE       914       
+&TABSEG TABELA   122 PARAM  RE       855
+&TABSEG TABELA   122 PARAM  RE       954
+&
+&ABSEG LIMITE NUM   VAR PARM 1 VAR PARM 2
+&XXXXX XXXXXX XXXXX XXXXXXXXXX XXXXXXXXXX 
+&TABSEG LIMITE   122          0          0
+&TABSEG LIMITE   122       1000       2500
+&TABSEG LIMITE   122       1200       3000
+&TABSEG LIMITE   122       1400      99999
+&TABSEG LIMITE   122       1500           
+&TABSEG LIMITE   122       1600           
+&TABSEG LIMITE   122       1800           
+&TABSEG LIMITE   122       2000           
+&TABSEG LIMITE   122       2200           
+&TABSEG LIMITE   122       2400           
+&TABSEG LIMITE   122      99999            
+&
+&ABSEG CELULA NUM   LIMITE     F    PAR.1.INF   PAR.1.SUP   PAR.2.INF   PAR.2.SUP 
+&XXXXX XXXXXX XXXXX XXXXXXXXXX X    XXXXXXXXXX  XXXXXXXXXX  XXXXXXXXXX  XXXXXXXXXX
+&TABSEG CELULA   122       1300               0        1000           0        2500
+&TABSEG CELULA   122       1700               0        1000        2500        3000
+&TABSEG CELULA   122       1200            1000        1200           0        2500
+&TABSEG CELULA   122       1700            1000        1200        2500        3000
+&TABSEG CELULA   122       1100            1200        1400           0        2500
+&TABSEG CELULA   122       1600            1200        1400        2500        3000
+&TABSEG CELULA   122       1000            1400        1500           0        2500
+&TABSEG CELULA   122       1500            1500        1600        2500        3000
+&TABSEG CELULA   122       1000            1500        1600           0        2500
+&TABSEG CELULA   122       1500            1500        1600        2500        3000
+&TABSEG CELULA   122       1400            1600        1800        2500        3000
+&TABSEG CELULA   122       1300            1800        2000        2500        3000
+&TABSEG CELULA   122       1200            2000        2200        2500        3000
+&TABSEG CELULA   122       1100            2200        2400        2500        3000
+&TABSEG CELULA   122       6300            2400       99999           0       99999
+&TABSEG CELULA   122       6300               0       99999        3000       99999
+&                                                                                  
+& ==========================================================================================================================
+& Limite Elo CC de Furnas (Itaipu 50hz) em funcao da carga da ANDE [LIMITE MINIMO] Nº123
+&
+&ABSEG INDICE NUM   DESCRICAO
+&XXXXX XXXXXX XXXXX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+&TABSEG INDICE   123 Fluxo Elo CC de Furnas
+&
+&ABSEG TABELA NUM   TIPO1  TIPO2  NUM   %CARG
+&XXXXX XXXXXX XXXXX XXXXXX XXXXXX XXXXX XXXXX
+&TABSEG TABELA   123 CONTR  RE       915
+&TABSEG TABELA   123 PARAM  RE       856
+&TABSEG TABELA   123 PARAM  RE       953
+&
+&ABSEG LIMITE NUM   VAR PARM 1 VAR PARM 2
+&XXXXX XXXXXX XXXXX XXXXXXXXXX XXXXXXXXXX Valor a ser atualizado de acordo com NT
+&TABSEG LIMITE   123          0          0
+&TABSEG LIMITE   123       1000       2500
+&TABSEG LIMITE   123       1200       3000
+&TABSEG LIMITE   123       1400      99999
+&TABSEG LIMITE   123       1500           
+&TABSEG LIMITE   123       1600           
+&TABSEG LIMITE   123       1800           
+&TABSEG LIMITE   123       2000           
+&TABSEG LIMITE   123       2200           
+&TABSEG LIMITE   123       2400           
+&TABSEG LIMITE   123      99999            
+&
+&ABSEG CELULA NUM   LIMITE     F    PAR.1.INF   PAR.1.SUP   PAR.2.INF   PAR.2.SUP 
+&XXXXX XXXXXX XXXXX XXXXXXXXXX X    XXXXXXXXXX  XXXXXXXXXX  XXXXXXXXXX  XXXXXXXXXX
+&TABSEG CELULA   123       -500               0        1000           0        2500
+&TABSEG CELULA   123       -400               0        1000        2500        3000
+&TABSEG CELULA   123       -500            1000        1200           0        2500
+&TABSEG CELULA   123       -400            1000        1200        2500        3000
+&TABSEG CELULA   123       -500            1200        1400           0        2500
+&TABSEG CELULA   123       -400            1200        1400        2500        3000
+&TABSEG CELULA   123       -700            1400        1500           0        2500
+&TABSEG CELULA   123       -400            1500        1600        2500        3000
+&TABSEG CELULA   123       -900            1500        1600           0        2500
+&TABSEG CELULA   123       -700            1500        1600        2500        3000
+&TABSEG CELULA   123       -400            1600        1800        2500        3000
+&TABSEG CELULA   123       -400            1800        2000        2500        3000
+&TABSEG CELULA   123       -400            2000        2200        2500        3000
+&TABSEG CELULA   123       -700            2200        2400        2500        3000
+&TABSEG CELULA   123       -320            2400       99999           0       99999
+&TABSEG CELULA   123       -320               0       99999        3000       99999
+&
+& ==========================================================================================================================
+&& Fluxo FNS Nº124
+&& Em função da geração de Belo Monte e do somatorio dos bipolos de Xingu
+&& Condicao: operacao monopolar de um dos bipolos de Xingu
+&
+&&ABSEG INDICE NUM   DESCRICAO
+&&XXXXX XXXXXX XXXXX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+&TABSEG INDICE   124 FNS em funcao dos bipolos FXGET + FXGTR e do somatorio dos bipolos de Xingu
+&&
+&&ABSEG TABELA NUM   TIPO1  TIPO2  NUM   %CARG
+&&XXXXX XXXXXX XXXXX XXXXXX XXXXXX XXXXX XXXXX
+&TABSEG TABELA   124 CONTR  RE       907       
+&TABSEG TABELA   124 PARAM  RE       949
+&TABSEG TABELA   124 PARAM  RE       938
+&&
+&&ABSEG LIMITE NUM   VAR PARM 1 VAR PARM 2
+&&XXXXX XXXXXX XXXXX XXXXXXXXXX XXXXXXXXXX
+&TABSEG LIMITE   124          0          0
+&TABSEG LIMITE   124       4000        540
+&TABSEG LIMITE   124      99999      99999
+&          
+&&
+&&ABSEG CELULA NUM   LIMITE     F    PAR.1.INF   PAR.1.SUP   PAR.2.INF   PAR.2.SUP 
+&&XXXXX XXXXXX XXXXX XXXXXXXXXX X    XXXXXXXXXX  XXXXXXXXXX  XXXXXXXXXX  XXXXXXXXXX
+&TABSEG CELULA   124       4700               0        4000           0       99999
+&TABSEG CELULA   124       4295            4000       99999           0         540
+&TABSEG CELULA   124       4700            4000       99999         540       99999
+&
+& ==========================================================================================================================
+&& FNS + FNESE Nº 125
+&& Em funcao da geracao de S. Mesa e B. Monte e somatorio dos bipolos de Xingu
+&& Condicao: operacao monopolar de um dos bipolos de Xingu
+&&
+&&ABSEG INDICE NUM   DESCRICAO
+&&XXXXX XXXXXX XXXXX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+&TABSEG INDICE   125 FNS+FNESE em funcao da geracao de S. Mesa e B. Monte
+&&
+&&ABSEG TABELA NUM   TIPO1  TIPO2  NUM   %CARG
+&&XXXXX XXXXXX XXXXX XXXXXX XXXXXX XXXXX XXXXX
+&TABSEG TABELA   125 CONTR  RE       981
+&TABSEG TABELA   125 PARAM  RE       942
+&TABSEG TABELA   125 PARAM  RE       947
+&TABSEG TABELA   125 PARAM  RE       903 
+&&
+&&ABSEG LIMITE NUM   VAR PARM 1 VAR PARM 2 VAR PARM 3 
+&&XXXXX XXXXXX XXXXX XXXXXXXXXX XXXXXXXXXX XXXXXXXXXX 
+&TABSEG LIMITE   125          0          0          0
+&TABSEG LIMITE   125       4500        480        540
+&TABSEG LIMITE   125      99999        720       1080
+&TABSEG LIMITE   125                  1000      99999                      
+&TABSEG LIMITE   125                 99999                                 
+&&                 
+&&ABSEG CELULA NUM   LIMITE     F    PAR.1.INF   PAR.1.SUP   PAR.2.INF   PAR.2.SUP   PAR.3.INF   PAR.3.SUP                                    
+&&XXXXX XXXXXX XXXXX XXXXXXXXXX X    XXXXXXXXXX  XXXXXXXXXX  XXXXXXXXXX  XXXXXXXXXX  XXXXXXXXXX  XXXXXXXXXX
+&TABSEG CELULA   125       8000               0        4500           0       99999           0       99999      
+&TABSEG CELULA   125       5975            4500       99999           0         480           0         540
+&TABSEG CELULA   125       5775            4500       99999         480         720           0         540
+&TABSEG CELULA   125       5675            4500       99999         720        1000           0         540
+&TABSEG CELULA   125       6380            4500       99999           0         480         540        1080
+&TABSEG CELULA   125       6180            4500       99999         480         720         540        1080
+&TABSEG CELULA   125       6080            4500       99999         720        1000         540        1080
+&TABSEG CELULA   125       6785            4500       99999           0         480        1080       99999
+&TABSEG CELULA   125       6585            4500       99999         480         720        1080       99999
+&TABSEG CELULA   125       6485            4500       99999         720        1000        1080       99999
+&&
+&&
+&===========================================================================================================================
+& Limite Fornecimento Sudeste (FSUL) Nº197
+& Em função da carga da região sul
+&
+&ABSEG INDICE NUM   DESCRICAO
+&XXXXX XXXXXX XXXXX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+&TABSEG INDICE   197 Fornecimento Sudeste (FSUL)
+&
+&ABSEG TABELA NUM   TIPO1  TIPO2  NUM   %CARG
+&XXXXX XXXXXX XXXXX XXXXXX XXXXXX XXXXX XXXXX
+&TABSEG TABELA   197 CONTR  RE       986
+&TABSEG TABELA   197 PARAM  CARGA      S 
+&
+&ABSEG LIMITE NUM   VAR PARM 1 
+&XXXXX XXXXXX XXXXX XXXXXXXXXX 
+&TABSEG LIMITE   197          0 
+&TABSEG LIMITE   197      13000 
+&TABSEG LIMITE   197    9999999 
+&
+&ABSEG CELULA NUM   LIMITE     F    PAR.1.INF   PAR.1.SUP     
+&XXXXX XXXXXX XXXXX XXXXXXXXXX X    XXXXXXXXXX  XXXXXXXXXX    
+&TABSEG CELULA   197       6500           13000     9999999                                 
+&TABSEG CELULA   197       6800               0       13000  
+&
+&===========================================================================================================================
+& Exportacao Norte (Exp_N) Nº198
+& Em função da carga das regioes Norte e Nordeste
+&ABSEG INDICE NUM   DESCRICAO
+&XXXXX XXXXXX XXXXX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+&TABSEG INDICE   198 Exportacao Norte
+&
+&ABSEG TABELA NUM   TIPO1  TIPO2  NUM   %CARG
+&XXXXX XXXXXX XXXXX XXXXXX XXXXXX XXXXX XXXXX
+&TABSEG TABELA   198 CONTR  RE       902
+&TABSEG TABELA   198 PARAM  RE       991 
+&
+&ABSEG LIMITE NUM   VAR PARM 1 
+&XXXXX XXXXXX XXXXX XXXXXXXXXX 
+&TABSEG LIMITE   198          0 
+&TABSEG LIMITE   198      17000 
+&TABSEG LIMITE   198    9999999 
+&
+&ABSEG CELULA NUM   LIMITE     F    PAR.1.INF   PAR.1.SUP     
+&XXXXX XXXXXX XXXXX XXXXXXXXXX X    XXXXXXXXXX  XXXXXXXXXX    
+&TABSEG CELULA   198       6000           17000     9999999                                 
+&TABSEG CELULA   198       5700               0       17000
+&===========================================================================================================================

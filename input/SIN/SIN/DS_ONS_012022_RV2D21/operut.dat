@@ -1,0 +1,806 @@
+& CONDICOES INICIAIS DAS UNIDADES                
+&
+UCTPAR 2
+UCTERM 2
+PINT
+REGRANPTV     1
+AVLCMO 1
+CPLEXLOG
+&
+&Flags Inativos
+&UCTBUSLOC
+&UCTHEURFP   1 100
+&CONSTDADOS 0
+&AJUSTEFCF
+&TOLERILH 1
+&CROSSOVER 1
+&ENGOLIMENTO 0               
+&               
+&                                                
+INIT                                             
+&us     nome       ug   st   GerInic     tempo MH A/D T  TITULINFLX
+&XX XXXXXXXXXXXX  XXX   XX   XXXXXXXXXX  XXXXX  X  X  X  XXXXXXXXXX
+  1  ANGRA 1        1    1      640.000   5856  0  0  1        640.
+  4  ST.CRUZ 34     3    0        0.000  20468  0  0  0          0.
+  4  ST.CRUZ 34     4    0        0.000  20468  0  0  0          0.
+  9  R.SILVEIRA     1    0        0.000  20468  0  0  0          0.
+  9  R.SILVEIRA     2    0        0.000  20468  0  0  0          0.
+ 12  CUIABA G CC    1    0        0.000   3816  0  0  0          0.
+ 12  CUIABA G CC    2    0        0.000   4320  0  0  0          0.
+ 12  CUIABA G CC    3    0        0.000   4344  0  0  0          0.
+ 13  ANGRA 2        1    1     1350.000   1853  0  0  1       1350.
+ 15  LINHARES       1    0        0.000    642  0  0  0          0.
+ 15  LINHARES       2    0        0.000    642  0  0  0          0.
+ 15  LINHARES       3    0        0.000    474  0  0  0          0.
+ 15  LINHARES       4    0        0.000    474  0  0  0          0.
+ 21  MARANHAO V     1    0        0.000   2495  0  0  0          0.
+ 24  J.LACERDA C    7    1      180.000    189  0  0  4          0.
+ 25  J.LACERDA B    5    1       80.010     43  1  0  3          0.
+ 25  J.LACERDA B    6    0        0.000     91  1  0  0          0.
+ 26  J.LACERDA A1   1    0        0.000   2471  0  0  0          0.
+ 26  J.LACERDA A1   2    0        0.000   2557  1  0  0          0.
+ 27  J.LACERDA A2   3    1       35.010    308  1  0  3          0.
+ 27  J.LACERDA A2   4    1       35.000     41  1  0  3          0.
+ 28  FIGUEIRA       1    0        0.000  20468  0  0  0          0.
+ 28  FIGUEIRA       3    0        0.000  20468  0  0  0          0.
+ 35  URUGUAIANA     1    0        0.000  20468  0  0  0          0.
+ 35  URUGUAIANA     2    0        0.000  20468  0  0  0          0.
+ 35  URUGUAIANA     3    0        0.000  20468  0  0  0          0.
+ 36  MARANHAO IV    1    0        0.000   2495  1  0  0          0.
+ 42  FORTALEZA      1    0        0.000  18961  0  0  0          0.
+ 42  FORTALEZA      2    0        0.000  18961  0  0  0          0.
+ 42  FORTALEZA      3    0        0.000   5592  0  0  0          0.
+ 43  TERMOBAHIA     1    0        0.000   3167  0  0  0          0.
+ 46  N.VENECIA 2    1    0        0.000   2495  1  0  0          0.
+ 47  TERMORIO       1    0        0.000   1152  0  0  0          0.
+ 47  TERMORIO       2    0        0.000   3085  0  0  0          0.
+ 47  TERMORIO       3    0        0.000   5232  0  0  0          0.
+ 47  TERMORIO       4    0        0.000   4354  0  0  0          0.
+ 47  TERMORIO       5    0        0.000  18190  0  0  0          0.
+ 47  TERMORIO       6    0        0.000   2414  0  0  0          0.
+ 47  TERMORIO       7    0        0.000   3582  1  0  0          0.
+ 47  TERMORIO       8    0        0.000   2760  0  0  0          0.
+ 47  TERMORIO       9    0        0.000   3480  0  0  0          0.
+ 47  TERMORIO      10    0        0.000  18190  0  0  0          0.
+ 47  TERMORIO      11    0        0.000   2856  1  0  0          0.
+ 47  TERMORIO      12    0        0.000    398  0  0  0          0.
+ 47  TERMORIO      13    0        0.000   3480  0  0  0          0.
+ 47  TERMORIO      14    0        0.000   3216  0  0  0          0.
+ 47  TERMORIO      15    0        0.000    481  0  0  0          0.
+ 47  TERMORIO      16    0        0.000   2496  0  0  0          0.
+ 47  TERMORIO      17    0        0.000    238  1  0  0          0.
+ 47  TERMORIO      18    0        0.000    654  0  0  0          0.
+ 47  TERMORIO      19    0        0.000    790  0  0  0          0.
+ 47  TERMORIO      20    0        0.000    888  0  0  0          0.
+ 47  TERMORIO      21    0        0.000   5328  0  0  0          0.
+ 47  TERMORIO      22    0        0.000   8297  1  0  0          0.
+ 47  TERMORIO      23    0        0.000  15192  1  0  0          0.
+ 47  TERMORIO      24    0        0.000  18190  0  0  0          0.
+ 47  TERMORIO      25    0        0.000  18190  0  0  0          0.
+ 47  TERMORIO      26    0        0.000  18190  0  0  0          0.
+ 47  TERMORIO      27    0        0.000   2976  0  0  0          0.
+ 47  TERMORIO      28    0        0.000  18190  0  0  0          0.
+ 47  TERMORIO      29    0        0.000  18190  0  0  0          0.
+ 47  TERMORIO      30    0        0.000  18190  0  0  0          0.
+ 47  TERMORIO      31    0        0.000   7471  0  0  0          0.
+ 48  ARAUCARIA      1    0        0.000  15886  1  0  0          0.
+ 48  ARAUCARIA      2    0        0.000   3160  1  0  0          0.
+ 48  ARAUCARIA      3    0        0.000   4058  1  0  0          0.
+ 49  VIANA          3    0        0.000   1608  1  0  0          0.
+ 49  VIANA          4    0        0.000   1607  0  0  0          0.
+ 49  VIANA          1    0        0.000   3113  0  0  0          0.
+ 49  VIANA          2    0        0.000   1594  1  0  0          0.
+ 50  PIRAT.12 G     1    0        0.000  20468  0  0  0          0.
+ 50  PIRAT.12 G     2    0        0.000  20468  0  0  0          0.
+ 52  CAMPINA GDE    1    0        0.000   3168  0  0  0          0.
+ 52  CAMPINA GDE    2    0        0.000   3168  0  0  0          0.
+ 52  CAMPINA GDE    3    0        0.000   3168  0  0  0          0.
+ 52  CAMPINA GDE    4    0        0.000   3167  1  0  0          0.
+ 53  GLOBAL I       1    0        0.000   4507  0  0  0          0.
+ 53  GLOBAL I       2    0        0.000   4542  0  0  0          0.
+ 53  GLOBAL I       3    0        0.000   3651  0  0  0          0.
+ 53  GLOBAL I       4    0        0.000  16560  0  0  0          0.
+ 53  GLOBAL I       5    0        0.000   3612  1  0  0          0.
+ 53  GLOBAL I       6    0        0.000   4536  1  0  0          0.
+ 53  GLOBAL I       7    0        0.000   3243  1  0  0          0.
+ 53  GLOBAL I       8    0        0.000   3216  0  0  0          0.
+ 53  GLOBAL I       9    0        0.000   3624  1  0  0          0.
+ 53  GLOBAL I      10    0        0.000   3266  0  0  0          0.
+ 53  GLOBAL I      11    0        0.000   3166  1  0  0          0.
+ 54  JUIZ DE FORA   1    0        0.000   2496  0  0  0          0.
+ 54  JUIZ DE FORA   2    0        0.000   2495  1  0  0          0.
+ 55  GLOBAL II      1    0        0.000   3328  0  0  0          0.
+ 55  GLOBAL II      2    0        0.000   3231  0  0  0          0.
+ 55  GLOBAL II      3    0        0.000   3333  0  0  0          0.
+ 55  GLOBAL II      4    0        0.000   3650  0  0  0          0.
+ 55  GLOBAL II      5    0        0.000  16560  0  0  0          0.
+ 55  GLOBAL II      6    0        0.000  16560  0  0  0          0.
+ 55  GLOBAL II      7    0        0.000   3248  1  0  0          0.
+ 55  GLOBAL II      8    0        0.000   3319  1  0  0          0.
+ 55  GLOBAL II      9    0        0.000   3386  1  0  0          0.
+ 55  GLOBAL II     10    0        0.000   3224  0  0  0          0.
+ 55  GLOBAL II     11    0        0.000   3166  1  0  0          0.
+ 57  MARACANAU I    1    0        0.000   3167  1  0  0          0.
+ 57  MARACANAU I    2    0        0.000   4461  1  0  0          0.
+ 57  MARACANAU I    3    0        0.000   3167  1  0  0          0.
+ 57  MARACANAU I    4    0        0.000   3167  1  0  0          0.
+ 57  MARACANAU I    5    0        0.000   6815  1  0  0          0.
+ 57  MARACANAU I    6    0        0.000   3350  0  0  0          0.
+ 57  MARACANAU I    7    0        0.000   3460  0  0  0          0.
+ 57  MARACANAU I    8    0        0.000   3207  0  0  0          0.
+ 58  TERMOCEARA     1    0        0.000   8946  0  0  0          0.
+ 58  TERMOCEARA     2    0        0.000   8903  0  0  0          0.
+ 58  TERMOCEARA     3    0        0.000   8910  1  0  0          0.
+ 58  TERMOCEARA     4    0        0.000  17472  1  0  0          0.
+ 58  TERMOCEARA     5    0        0.000   1248  0  0  0          0.
+ 58  TERMOCEARA     6    0        0.000   1248  0  0  0          0.
+ 58  TERMOCEARA     7    0        0.000   1248  0  0  0          0.
+ 58  TERMOCEARA     8    0        0.000   1248  0  0  0          0.
+ 58  TERMOCEARA     9    0        0.000   1248  0  0  0          0.
+ 58  TERMOCEARA    10    0        0.000   1248  0  0  0          0.
+ 58  TERMOCEARA    11    0        0.000   1248  0  0  0          0.
+ 58  TERMOCEARA    12    0        0.000   1248  0  0  0          0.
+ 58  TERMOCEARA    13    0        0.000   1248  0  0  0          0.
+ 58  TERMOCEARA    14    0        0.000   1248  0  0  0          0.
+ 58  TERMOCEARA    15    0        0.000   1248  0  0  0          0.
+ 60  NORTEFLU       1    0        0.000  23727  0  0  0          0.
+ 60  NORTEFLU       2    0        0.000  23727  0  0  0          0.
+ 60  NORTEFLU       3    0        0.000  23727  0  0  0          0.
+ 60  NORTEFLU       4    0        0.000    377  0  0  0          0.
+ 60  NORTEFLU       5    0        0.000    545  0  0  0          0.
+ 60  NORTEFLU       6    0        0.000   1440  0  0  0          0.
+ 60  NORTEFLU       7    0        0.000   1150  0  0  0          0.
+ 62  SEROPEDICA     1    0        0.000   2019  0  0  0          0.
+ 62  SEROPEDICA     2    0        0.000    480  0  0  0          0.
+ 62  SEROPEDICA     3    0        0.000   2467  1  0  0          0.
+ 62  SEROPEDICA     4    0        0.000   2454  0  0  0          0.
+ 62  SEROPEDICA     5    0        0.000    473  1  0  0          0.
+ 62  SEROPEDICA     6    0        0.000   2448  1  0  0          0.
+ 62  SEROPEDICA     7    0        0.000   2618  0  0  0          0.
+ 62  SEROPEDICA     8    0        0.000   2496  0  0  0          0.
+ 63  IBIRITE        1    0        0.000   3456  0  0  0          0.
+ 64  CANOAS         1    0        0.000   2830  1  0  0          0.
+ 67  TERMONE        1    0        0.000    469  1  0  0          0.
+ 67  TERMONE        2    0        0.000    474  0  0  0          0.
+ 67  TERMONE        3    0        0.000   1396  1  0  0          0.
+ 68  TRES LAGOAS    1    0        0.000   3279  0  0  0          0.
+ 68  TRES LAGOAS    2    0        0.000  15431  0  0  0          0.
+ 68  TRES LAGOAS    3    0        0.000  20136  0  0  0          0.
+ 68  TRES LAGOAS    4    0        0.000   5124  0  0  0          0.
+ 68  TRES LAGOAS    5    0        0.000  18096  1  0  0          0.
+ 68  TRES LAGOAS    6    0        0.000   9259  1  0  0          0.
+ 68  TRES LAGOAS    7    0        0.000   2512  1  0  0          0.
+ 68  TRES LAGOAS    8    0        0.000  11112  0  0  0          0.
+ 68  TRES LAGOAS    9    0        0.000   2427  1  0  0          0.
+ 68  TRES LAGOAS   10    0        0.000  10974  0  0  0          0.
+ 68  TRES LAGOAS   11    0        0.000  11064  0  0  0          0.
+ 68  TRES LAGOAS   12    0        0.000  18072  0  0  0          0.
+ 68  TRES LAGOAS   13    0        0.000   2832  0  0  0          0.
+ 68  TRES LAGOAS   14    0        0.000  10752  0  0  0          0.
+ 68  TRES LAGOAS   15    0        0.000   9550  1  0  0          0.
+ 69  TERMOPB        1    0        0.000   2299  1  0  0          0.
+ 69  TERMOPB        2    0        0.000    643  0  0  0          0.
+ 69  TERMOPB        3    0        0.000   1192  0  0  0          0.
+ 70  GERAMAR II     1    0        0.000     12  0  0  0          8.
+ 70  GERAMAR II     2    0        0.000     12  0  0  0          8.
+ 70  GERAMAR II     3    0        0.000   3167  0  0  0          8.
+ 70  GERAMAR II     4    0        0.000   3167  0  0  0          8.
+ 73  GERAMAR I      1    0        0.000   3167  0  0  0          0.
+ 73  GERAMAR I      2    0        0.000   3167  0  0  0          0.
+ 73  GERAMAR I      3    0        0.000     36  0  0  0          0.
+ 73  GERAMAR I      4    0        0.000     40  1  0  0          0.
+ 83  VALE DO ACU    1    0        0.000   3167  0  0  0          0.
+ 83  VALE DO ACU    2    0        0.000  13949  0  0  0          0.
+ 86  ST.CRUZ NOVA  11    0        0.000   1092  0  0  0          0.
+ 86  ST.CRUZ NOVA  21    0        0.000    474  0  0  0          0.
+ 90  TERMOMACAE     1    0        0.000   2832  0  0  0          0.
+ 90  TERMOMACAE     2    0        0.000   2851  1  0  0          0.
+ 90  TERMOMACAE     3    0        0.000  10519  1  0  0          0.
+ 90  TERMOMACAE     4    0        0.000   3112  1  0  0          0.
+ 90  TERMOMACAE     5    0        0.000   2938  1  0  0          0.
+ 90  TERMOMACAE     6    0        0.000   9167  0  0  0          0.
+ 90  TERMOMACAE     7    0        0.000  20136  0  0  0          0.
+ 90  TERMOMACAE     8    0        0.000  20136  0  0  0          0.
+ 90  TERMOMACAE     9    0        0.000   5160  1  0  0          0.
+ 90  TERMOMACAE    10    0        0.000  20136  0  0  0          0.
+ 90  TERMOMACAE    11    0        0.000  10391  0  0  0          0.
+ 90  TERMOMACAE    12    0        0.000  10397  1  0  0          0.
+ 90  TERMOMACAE    13    0        0.000   2872  0  0  0          0.
+ 90  TERMOMACAE    14    0        0.000  10096  0  0  0          0.
+ 90  TERMOMACAE    15    0        0.000   2904  1  0  0          0.
+ 90  TERMOMACAE    16    0        0.000   2878  1  0  0          0.
+ 90  TERMOMACAE    17    0        0.000   4196  0  0  0          0.
+ 90  TERMOMACAE    18    0        0.000   2844  1  0  0          0.
+ 90  TERMOMACAE    19    0        0.000   2833  0  0  0          0.
+ 90  TERMOMACAE    20    0        0.000   3648  0  0  0          0.
+ 96  TERMOPE        1    0        0.000    660  0  0  0          0.
+ 96  TERMOPE        2    0        0.000   2160  0  0  0          0.
+ 96  TERMOPE        3    0        0.000   1462  1  0  0          0.
+ 97  CUBATAO        1    1      110.000    816  0  0  2        110.
+ 97  CUBATAO        2    0        0.000   2932  0  0  0        110.
+ 97  CUBATAO        3    0        0.000   5218  0  0  0        110.
+ 98  PERNAMBU_III   1    0        0.000  16417  0  0  0          0.
+ 98  PERNAMBU_III   2    0        0.000  17782  0  0  0          0.
+ 98  PERNAMBU_III   3    0        0.000  16416  1  0  0          0.
+ 98  PERNAMBU_III   4    0        0.000   9887  1  0  0          0.
+106  ERB CANDEIAS   1    1        4.000    454  0  0  2          4.
+107  PAMPA SUL      1    0        0.000  16256  0  0  0          0.
+108  XAVANTES       1    0        0.000   3640  0  0  0          0.
+108  XAVANTES       2    0        0.000   3640  0  0  0          0.
+109  ALTOS          1    0        0.000  20468  0  0  0          0.
+110  N.PIRATININ    1    0        0.000   2560  0  0  0          0.
+110  N.PIRATININ    2    0        0.000   4248  1  0  0          0.
+110  N.PIRATININ    3    0        0.000   4656  0  0  0          0.
+110  N.PIRATININ    4    0        0.000   4693  0  0  0          0.
+110  N.PIRATININ    5    0        0.000   3162  0  0  0          0.
+110  N.PIRATININ    6    0        0.000   2808  1  0  0          0.
+110  N.PIRATININ    7    0        0.000  19866  0  0  0          0.
+110  N.PIRATININ    8    0        0.000   3336  0  0  0          0.
+110  N.PIRATININ    9    0        0.000   3598  1  0  0          0.
+110  N.PIRATININ   10    0        0.000   3430  1  0  0          0.
+110  N.PIRATININ   11    0        0.000  22647  0  0  0          0.
+110  N.PIRATININ   12    0        0.000   2976  0  0  0          0.
+110  N.PIRATININ   13    0        0.000   3336  0  0  0          0.
+110  N.PIRATININ   14    0        0.000  23184  0  0  0          0.
+110  N.PIRATININ   15    0        0.000  23184  0  0  0          0.
+111  ARACATI        1    0        0.000  20468  0  0  0          0.
+112  CURUMIM        1    0        0.000   2840  0  0  0          0.
+112  CURUMIM        2    0        0.000   2832  0  0  0          0.
+112  CURUMIM        3    0        0.000   2834  0  0  0          0.
+113  BATURITE       1    0        0.000  20468  0  0  0          0.
+116  PARNAIBA IV    1    0        0.000   1990  1  0  0          0.
+117  CAMPO MAIOR    1    0        0.000  20468  0  0  0          0.
+119  CAUCAIA        1    0        0.000  20468  0  0  0          0.
+121  CRATO          1    0        0.000  20468  0  0  0          0.
+125  ENGUIA PECEM   1    0        0.000  20468  0  0  0          0.
+127  IGUATU         1    0        0.000  20468  0  0  0          0.
+133  JUAZEIRO N     1    0        0.000  20468  0  0  0          0.
+135  MARAMBAIA      1    0        0.000  20468  0  0  0          0.
+138  NAZARIA        1    0        0.000  20468  0  0  0          0.
+140  MAUA 3         1    0        0.000   1959  0  0  0        264.
+140  MAUA 3         2    1      264.000    408  0  0  2        264.
+140  MAUA 3         3    0        0.000    787  0  0  0        264.
+144  PETROLINA      1    0        0.000   4160  1  0  0          0.
+144  PETROLINA      2    0        0.000  20136  0  0  0          0.
+144  PETROLINA      3    0        0.000   3623  0  0  0          0.
+144  PETROLINA      4    0        0.000   3639  0  0  0          0.
+144  PETROLINA      5    0        0.000  20136  0  0  0          0.
+144  PETROLINA      6    0        0.000   4393  1  0  0          0.
+144  PETROLINA      7    0        0.000   3162  1  0  0          0.
+144  PETROLINA      8    0        0.000   3170  1  0  0          0.
+146  STA VITORIA    1    0        0.000   1299  0  0  0          0.
+147  PROSPERIDADE   1    0        0.000   1843  0  0  0          0.
+147  PROSPERIDADE   2    0        0.000   1843  0  0  0          0.
+147  PROSPERIDADE   3    0        0.000   1821  0  0  0          0.
+149  SAO SEPE       1    0        0.000    215  1  0  0          0.
+151  POTIGUAR       1    0        0.000   3173  0  0  0          0.
+151  POTIGUAR       2    0        0.000   3173  0  0  0          0.
+151  POTIGUAR       3    0        0.000   3173  0  0  0          0.
+151  POTIGUAR       4    0        0.000   3173  0  0  0          0.
+152  TERMOCABO      1    0        0.000   3216  0  0  0          0.
+152  TERMOCABO      2    0        0.000   3167  0  0  0          0.
+152  TERMOCABO      3    0        0.000   4224  0  0  0          0.
+153  DAIA           1    0        0.000  20468  0  0  0          0.
+153  DAIA           2    0        0.000  20468  0  0  0          0.
+153  DAIA           3    0        0.000  20468  0  0  0          0.
+155  GOIANIA II     1    0        0.000  20468  0  0  0          0.
+155  GOIANIA II     2    0        0.000  20468  0  0  0          0.
+156  CANDIOTA 3     1    0        0.000    384  0  0  0          0.
+159  TERMOMANAUS    1    0        0.000   3171  0  0  0          0.
+159  TERMOMANAUS    2    0        0.000   3171  0  0  0          0.
+159  TERMOMANAUS    3    0        0.000   3171  0  0  0          0.
+159  TERMOMANAUS    4    0        0.000   3171  0  0  0          0.
+159  TERMOMANAUS    5    0        0.000   3171  0  0  0          0.
+159  TERMOMANAUS    6    0        0.000   3171  0  0  0          0.
+159  TERMOMANAUS    7    0        0.000   3171  0  0  0          0.
+159  TERMOMANAUS    8    0        0.000   3171  0  0  0          0.
+159  TERMOMANAUS    9    0        0.000   3171  0  0  0          0.
+159  TERMOMANAUS   10    0        0.000   3171  0  0  0          0.
+159  TERMOMANAUS   11    0        0.000   3171  0  0  0          0.
+159  TERMOMANAUS   12    0        0.000   3171  0  0  0          0.
+160  PAU FERRO I    1    0        0.000   3171  0  0  0          0.
+160  PAU FERRO I    2    0        0.000   3171  0  0  0          0.
+160  PAU FERRO I    3    0        0.000   3171  0  0  0          0.
+160  PAU FERRO I    4    0        0.000   3171  0  0  0          0.
+160  PAU FERRO I    5    0        0.000   3171  0  0  0          0.
+160  PAU FERRO I    6    0        0.000   3171  0  0  0          0.
+160  PAU FERRO I    7    0        0.000   3171  0  0  0          0.
+161  POTIGUAR III   1    0        0.000   3173  0  0  0          0.
+161  POTIGUAR III   2    0        0.000   3173  0  0  0          0.
+161  POTIGUAR III   3    0        0.000   3269  0  0  0          0.
+161  POTIGUAR III   4    0        0.000   3677  0  0  0          0.
+161  POTIGUAR III   5    0        0.000   3173  0  0  0          0.
+161  POTIGUAR III   6    0        0.000   3173  0  0  0          0.
+163  P. PECEM II    1    0        0.000   2660  1  0  0          0.
+164  APOENA         1    0        0.000   3570  1  0  0          0.
+164  APOENA         2    0        0.000   3103  0  0  0          0.
+164  APOENA         3    0        0.000   3108  0  0  0          0.
+164  APOENA         4    0        0.000   3303  0  0  0          0.
+164  APOENA         5    0        0.000   3288  0  0  0          0.
+164  APOENA         6    0        0.000   3051  1  0  0          0.
+164  APOENA         7    0        0.000   2908  0  0  0          0.
+164  APOENA         8    0        0.000  20136  0  0  0          0.
+166  GUARANI        1    0        0.000   3631  0  0  0          0.
+166  GUARANI        2    0        0.000   3295  0  0  0          0.
+166  GUARANI        3    0        0.000   2906  0  0  0          0.
+166  GUARANI        4    0        0.000   3049  0  0  0          0.
+167  P. PECEM I     1    0        0.000   2658  0  0  0          0.
+167  P. PECEM I     2    0        0.000   2658  1  0  0          0.
+169  CISFRAMA       1    1        2.000   3144  0  0  2          2.
+170  SUAPE II       1    0        0.000   3165  0  0  0          0.
+170  SUAPE II       2    0        0.000   7081  1  0  0          0.
+170  SUAPE II       3    0        0.000   3338  0  0  0          0.
+170  SUAPE II       4    0        0.000   3049  1  0  0          0.
+170  SUAPE II       5    0        0.000   4400  0  0  0          0.
+170  SUAPE II       6    0        0.000   3402  0  0  0          0.
+170  SUAPE II       7    0        0.000   3616  1  0  0          0.
+170  SUAPE II       8    0        0.000   3545  0  0  0          0.
+170  SUAPE II       9    0        0.000   3568  1  0  0          0.
+170  SUAPE II      10    0        0.000   3337  0  0  0          0.
+170  SUAPE II      11    0        0.000   3170  0  0  0          0.
+170  SUAPE II      12    0        0.000   3325  1  0  0          0.
+170  SUAPE II      13    0        0.000   3185  0  0  0          0.
+170  SUAPE II      14    0        0.000   3177  0  0  0          0.
+170  SUAPE II      15    0        0.000   3219  0  0  0          0.
+170  SUAPE II      16    0        0.000   3388  0  0  0          0.
+170  SUAPE II      17    0        0.000  20468  0  0  0          0.
+176  PORTO ITAQUI   1    0        0.000   2660  1  0  0          0.
+182  PALMEIRAS GO   1    0        0.000  10062  1  0  0          0.
+182  PALMEIRAS GO   2    0        0.000  10110  0  0  0          0.
+194  T.NORTE 2      1    0        0.000  20136  0  0  0          0.
+194  T.NORTE 2      2    0        0.000  20136  0  0  0          0.
+194  T.NORTE 2      3    0        0.000  10542  1  0  0          0.
+194  T.NORTE 2      4    0        0.000  10542  0  0  0          0.
+201  APARECIDA      1    1       37.500      3  0  0  2         75.
+201  APARECIDA      2    0        0.000   1312  0  0  0         75.
+201  APARECIDA      3    1       25.000      1  0  0  2         75.
+201  APARECIDA      4    1       12.500     16  0  2  2         75.
+203  C. ROCHA       1    1       17.076    881  0  0  2         71.
+203  C. ROCHA       2    1       12.848    177  1  0  2         71.
+203  C. ROCHA       3    1       17.076    165  1  0  2         71.
+203  C. ROCHA       4    1       12.000    396  0  0  2         71.
+203  C. ROCHA       5    1       12.000    148  1  0  2         71.
+204  JARAQUI        6    1       36.080   4975  0  0  2         63.
+204  JARAQUI        7    1       26.920   4975  0  0  2         63.
+205  MANAUARA       1    1       18.350   5550  0  0  2         64.
+205  MANAUARA       2    1       18.350   4872  0  0  2         64.
+205  MANAUARA       3    1       17.300   2232  0  0  2         64.
+205  MANAUARA       4    1       10.000   2716  0  0  2         64.
+207  PONTA NEGRA    1    1       16.000   3458  0  0  2         64.
+207  PONTA NEGRA    2    1       16.000   3458  0  0  2         64.
+207  PONTA NEGRA    3    1       16.000   3458  0  0  2         64.
+207  PONTA NEGRA    4    1       16.000   3458  0  0  2         64.
+209  TAMBAQUI       5    0        0.000   5134  0  0  0         63.
+209  TAMBAQUI       6    1       38.000   3465  0  0  2         63.
+209  TAMBAQUI       7    1       25.000   3465  0  0  2         63.
+211  BAIXADA FLU    1    0        0.000   5876  1  0  0          0.
+211  BAIXADA FLU    2    0        0.000  11160  0  0  0          0.
+211  BAIXADA FLU    3    0        0.000   2494  1  0  0          0.
+212  MARANHAO III   1    0        0.000   1223  0  0  0          0.
+221  SYKUE I        1    0        0.000   9694  1  0  0          0.
+224  P. SERGIPE I   1    0        0.000    984  0  0  0          0.
+224  P. SERGIPE I   2    0        0.000   1059  1  0  0          0.
+224  P. SERGIPE I   3    0        0.000  16104  0  0  0          0.
+224  P. SERGIPE I   4    0        0.000  14654  1  0  0          0.
+224  P. SERGIPE I   5    0        0.000  16104  0  0  0          0.
+224  P. SERGIPE I   6    0        0.000  14880  1  0  0          0.
+224  P. SERGIPE I   7    0        0.000  14844  0  0  0          0.
+229  ONCA PINTADA   1    0        0.000     68  0  0  0          0.
+230  PREDILECTA     1    0        0.000     44  0  0  0          0.
+334  W ARJONA       1    0        0.000   3616  1  0  0          0.
+334  W ARJONA       2    0        0.000   3616  1  0  0          0.
+334  W ARJONA       3    0        0.000   4680  0  0  0          0.
+334  W ARJONA       4    0        0.000   3616  1  0  0          0.
+334  W ARJONA       5    0        0.000   3544  1  0  0          0.
+383  ATLANTICO      1    0        0.000  13823  0  0  0        219.
+383  ATLANTICO      2    0        0.000  13896  0  0  0        219.
+383  ATLANTICO      3    0        0.000   4224  0  0  0        219.
+383  ATLANTICO      4    0        0.000   5545  1  0  0        219.
+383  ATLANTICO      5    1      295.000     19  0  0  0        219.
+383  ATLANTICO      6    0        0.000    528  0  0  0        219.
+383  ATLANTICO      7    0        0.000     19  0  0  0        219.
+434  W ARJONA 2     1    0        0.000   3616  1  0  0          0.
+434  W ARJONA 2     2    0        0.000   3616  1  0  0          0.
+434  W ARJONA 2     3    0        0.000   4680  0  0  0          0.
+434  W ARJONA 2     4    0        0.000   3616  1  0  0          0.
+434  W ARJONA 2     5    0        0.000   3544  1  0  0          0.
+137  GNA            1    0        0.000   2736  0  0  0          0.
+FIM
+&
+&
+& LIMITES E CONDICOES OPERACIONAIS DAS UNIDADES                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+&
+OPER                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+&us    nome      un di hi m df hf m Gmin     Gmax       Custo                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+&XX XXXXXXXXXXXX XX XX XX X XX XX X XXXXXXXXXXxxxxxxxxxxXXXXXXXXXX                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+  1 ANGRA 1       1 15  0 0 F                                31.17
+ 13 ANGRA 2       1 15  0 0 F                                20.12
+211 BAIXADA FL    1 15  0 0 F                               279.17
+211 BAIXADA FL    2 15  0 0 F                               279.17
+211 BAIXADA FL    3 15  0 0 F                               279.17
+ 97 CUBATAO       1 15  0 0 F                               362.15
+ 97 CUBATAO       2 15  0 0 F                               362.15
+ 97 CUBATAO       3 15  0 0 F                               362.15
+ 12 CUIABA CC     1 15  0 0 F                              1700.00
+ 12 CUIABA CC     2 15  0 0 F                              1700.00
+ 12 CUIABA CC     3 15  0 0 F                              1700.00
+153 DAIA          1 15  0 0 F                              1021.69
+153 DAIA          2 15  0 0 F                              1021.69
+153 DAIA          3 15  0 0 F                              1021.69
+137 UTE GNA I     1 15  0 0 F                               548.31
+155 GOIANIA 2     1 15  0 0 F                              1068.30
+155 GOIANIA 2     2 15  0 0 F                              1068.30
+ 63 IBIRITE       1 15  0 0 F                              2201.41
+ 54 JUIZ DE FO    1 15  0 0 F                               522.96
+ 54 JUIZ DE FO    2 15  0 0 F                               522.96
+ 15 LUIZORMELO    1 15  0 0 F                               435.30
+ 15 LUIZORMELO    2 15  0 0 F                               435.30
+ 15 LUIZORMELO    3 15  0 0 F                               435.30
+ 15 LUIZORMELO    4 15  0 0 F                               435.30
+110 NPIRATINGA    1 15  0 0 F                              2196.59
+110 NPIRATINGA    2 15  0 0 F                              2196.59
+110 NPIRATINGA    3 15  0 0 F                              2196.59
+110 NPIRATINGA    4 15  0 0 F                              2196.59
+110 NPIRATINGA    5 15  0 0 F                              2196.59
+110 NPIRATINGA    6 15  0 0 F                              2196.59
+110 NPIRATINGA    7 15  0 0 F                              2196.59
+110 NPIRATINGA    8 15  0 0 F                              2196.59
+110 NPIRATINGA    9 15  0 0 F                              2196.59
+110 NPIRATINGA   10 15  0 0 F                              2196.59
+110 NPIRATINGA   11 15  0 0 F                              2196.59
+110 NPIRATINGA   12 15  0 0 F                              2196.59
+110 NPIRATINGA   13 15  0 0 F                              2196.59
+110 NPIRATINGA   14 15  0 0 F                              2196.59
+110 NPIRATINGA   15 15  0 0 F                              2196.59
+229 O.PINTADA     1 15  0 0 F                               124.48
+182 PALMEIR_GO    1 15  0 0 F                              1491.93
+182 PALMEIR_GO    2 15  0 0 F                              1491.93
+ 50 PIRAT.12 O    1 15  0 0 F                               470.34
+ 50 PIRAT.12 O    2 15  0 0 F                               470.34
+230 PREDILECTA    1 15  0 0 F                               175.91
+  9 CAMPOS        1 15  0 0 F                               978.10
+  9 CAMPOS        2 15  0 0 F                               978.10
+ 62 SEROPEDICA    1 15  0 0 F                               412.26
+ 62 SEROPEDICA    2 15  0 0 F                               412.26
+ 62 SEROPEDICA    3 15  0 0 F                               412.26
+ 62 SEROPEDICA    4 15  0 0 F                               412.26
+ 62 SEROPEDICA    5 15  0 0 F                               412.26
+ 62 SEROPEDICA    6 15  0 0 F                               412.26
+ 62 SEROPEDICA    7 15  0 0 F                               412.26
+ 62 SEROPEDICA    8 15  0 0 F                               412.26
+  4 ST.CRUZ 34    3 15  0 0 F                               310.41
+  4 ST.CRUZ 34    4 15  0 0 F                               310.41
+ 86 SANTA CRUZ   11 15  0 0 F                               283.10
+ 86 SANTA CRUZ   21 15  0 0 F                               283.10
+146 UTE STA VI    1 15  0 0 F                               134.46
+& Oferta adicional nos termos da portaria #17 do MME
+194 TNORTE 2      1 15  0 0 F                        0.0    910.86
+194 TNORTE 2      2 15  0 0 F                        0.0    910.86
+194 TNORTE 2      3 15  0 0 F                        0.0    910.86
+194 TNORTE 2      4 15  0 0 F                        0.0    910.86
+ 90 T.MACAE       1 15  0 0 F                               740.76
+ 90 T.MACAE       2 15  0 0 F                               740.76
+ 90 T.MACAE       3 15  0 0 F                               740.76
+ 90 T.MACAE       4 15  0 0 F                               740.76
+ 90 T.MACAE       5 15  0 0 F                               740.76
+ 90 T.MACAE       6 15  0 0 F                               740.76
+ 90 T.MACAE       7 15  0 0 F                               740.76
+ 90 T.MACAE       8 15  0 0 F                               740.76
+ 90 T.MACAE       9 15  0 0 F                               740.76
+ 90 T.MACAE      10 15  0 0 F                               740.76
+ 90 T.MACAE      11 15  0 0 F                               740.76
+ 90 T.MACAE      12 15  0 0 F                               740.76
+ 90 T.MACAE      13 15  0 0 F                               740.76
+ 90 T.MACAE      14 15  0 0 F                               740.76
+ 90 T.MACAE      15 15  0 0 F                               740.76
+ 90 T.MACAE      16 15  0 0 F                               740.76
+ 90 T.MACAE      17 15  0 0 F                               740.76
+ 90 T.MACAE      18 15  0 0 F                               740.76
+ 90 T.MACAE      19 15  0 0 F                               740.76
+ 90 T.MACAE      20 15  0 0 F                               740.76
+ 47 TERMORIO      1 15  0 0 F                               331.67
+ 47 TERMORIO      2 15  0 0 F                               331.67
+ 47 TERMORIO      3 15  0 0 F                               331.67
+ 47 TERMORIO      4 15  0 0 F                               331.67
+ 47 TERMORIO      5 15  0 0 F                               331.67
+ 47 TERMORIO      6 15  0 0 F                               331.67
+ 47 TERMORIO      7 15  0 0 F                               331.67
+ 47 TERMORIO      8 15  0 0 F                               331.67
+ 47 TERMORIO      9 15  0 0 F                               331.67
+ 47 TERMORIO     10 15  0 0 F                               331.67
+ 47 TERMORIO     11 15  0 0 F                               331.67
+ 47 TERMORIO     12 15  0 0 F                               331.67
+ 47 TERMORIO     13 15  0 0 F                               331.67
+ 47 TERMORIO     14 15  0 0 F                               331.67
+ 47 TERMORIO     15 15  0 0 F                               331.67
+ 47 TERMORIO     16 15  0 0 F                               331.67
+ 47 TERMORIO     17 15  0 0 F                               331.67
+ 47 TERMORIO     18 15  0 0 F                               331.67
+ 47 TERMORIO     19 15  0 0 F                               331.67
+ 47 TERMORIO     20 15  0 0 F                               331.67
+ 47 TERMORIO     21 15  0 0 F                               331.67
+ 47 TERMORIO     22 15  0 0 F                               331.67
+ 47 TERMORIO     23 15  0 0 F                               331.67
+ 47 TERMORIO     24 15  0 0 F                               331.67
+ 47 TERMORIO     25 15  0 0 F                               331.67
+ 47 TERMORIO     26 15  0 0 F                               331.67
+ 47 TERMORIO     27 15  0 0 F                               331.67
+ 47 TERMORIO     28 15  0 0 F                               331.67
+ 47 TERMORIO     29 15  0 0 F                               331.67
+ 47 TERMORIO     30 15  0 0 F                               331.67
+ 47 TERMORIO     31 15  0 0 F                               331.67
+ 68 T.LAGOAS      1 15  0 0 F                               263.65
+ 68 T.LAGOAS      2 15  0 0 F                               263.65
+ 68 T.LAGOAS      3 15  0 0 F                               263.65
+ 68 T.LAGOAS      4 15  0 0 F                               263.65
+ 68 T.LAGOAS      5 15  0 0 F                               263.65
+ 68 T.LAGOAS      6 15  0 0 F                               263.65
+ 68 T.LAGOAS      7 15  0 0 F                               263.65
+ 68 T.LAGOAS      8 15  0 0 F                               263.65
+ 68 T.LAGOAS      9 15  0 0 F                               263.65
+ 68 T.LAGOAS     10 15  0 0 F                               263.65
+ 68 T.LAGOAS     11 15  0 0 F                               263.65
+ 68 T.LAGOAS     12 15  0 0 F                               263.65
+ 68 T.LAGOAS     13 15  0 0 F                               263.65
+ 68 T.LAGOAS     14 15  0 0 F                               263.65
+ 68 T.LAGOAS     15 15  0 0 F                               263.65
+ 49 VIANA         1 15  0 0 F                              1082.95
+ 49 VIANA         2 15  0 0 F                              1082.95
+ 49 VIANA         3 15  0 0 F                              1082.95
+ 49 VIANA         4 15  0 0 F                              1082.95
+108 XAVANTES      1 15  0 0 F                              1468.18
+108 XAVANTES      2 15  0 0 F                              1468.18
+ 48 ARAUCARIA     1 15  0 0 F                              1955.21
+ 48 ARAUCARIA     2 15  0 0 F                              1955.21
+ 48 ARAUCARIA     3 15  0 0 F                              1955.21
+156 CANDIOTA_3    1 15  0 0 F                                93.84
+ 64 CANOAS        1 15  0 0 F                               698.14
+169 MADEIRA       1 15  0 0 F                               336.06
+&UTE Figueira sem operação comercial conforme despacho 2.645 da ANEEL
+ 28 FIGUEIRA      1 15  0 0 F                        0.0    475.68
+ 28 FIGUEIRA      3 15  0 0 F                        0.0    475.68
+ 26 J.LAC. A1     1 15  0 0 F                               304.61
+ 26 J.LAC. A1     2 15  0 0 F                               304.61
+ 27 J.LAC. A2     3 15  0 0 F                               278.38
+ 27 J.LAC. A2     4 15  0 0 F                               278.38
+ 25 J.LACER. B    5 15  0 0 F                               271.21
+ 25 J.LACER. B    6 15  0 0 F                               271.21
+ 24 J.LACER. C    7 15  0 0 F                               229.27
+107 PAMPA SUL     1 15  0 0 F                                77.19
+149 SAO SEPE      1 15  0 0 F                                97.11
+&UTE Uruguaiana sem CVU valido
+ 35 URUGUAIANA    1 15  0 0 F                        0.0      0.00
+ 35 URUGUAIANA    2 15  0 0 F                        0.0      0.00
+ 35 URUGUAIANA    3 15  0 0 F                        0.0      0.00
+&UTES das empresas ENGUIA GEN PI e ENGUIA GEN CE sem CVU valido
+109 ALTOS         1 15  0 0 F                        0.0      0.00
+111 ARACATI       1 15  0 0 F                        0.0      0.00
+112 CURUMIM       1 15  0 0 F                              1488.94
+112 CURUMIM       2 15  0 0 F                              1488.94
+112 CURUMIM       3 15  0 0 F                              1488.94
+113 BATURITE      1 15  0 0 F                        0.0      0.00
+166 GUARANI       1 15  0 0 F                              1834.28
+166 GUARANI       2 15  0 0 F                              1834.28
+166 GUARANI       3 15  0 0 F                              1834.28
+166 GUARANI       4 15  0 0 F                              1834.28
+ 52 CAMPINA_GR    1 15  0 0 F                              1082.97
+ 52 CAMPINA_GR    2 15  0 0 F                              1082.97
+ 52 CAMPINA_GR    3 15  0 0 F                              1082.97
+ 52 CAMPINA_GR    4 15  0 0 F                              1082.97
+117 C.MAIOR       1 15  0 0 F                        0.0      0.00
+119 CAUCAIA       1 15  0 0 F                        0.0      0.00
+121 CRATO         1 15  0 0 F                        0.0      0.00
+125 PECEM         1 15  0 0 F                        0.0      0.00
+ 42 FORTALEZA     1 15  0 0 F                               254.96
+ 42 FORTALEZA     2 15  0 0 F                               254.96
+ 42 FORTALEZA     3 15  0 0 F                               254.96
+ 53 GLOBAL I      1 15  0 0 F                              1226.79
+ 53 GLOBAL I      2 15  0 0 F                              1226.79
+ 53 GLOBAL I      3 15  0 0 F                              1226.79
+ 53 GLOBAL I      4 15  0 0 F                              1226.79
+ 53 GLOBAL I      5 15  0 0 F                              1226.79
+ 53 GLOBAL I      6 15  0 0 F                              1226.79
+ 53 GLOBAL I      7 15  0 0 F                              1226.79
+ 53 GLOBAL I      8 15  0 0 F                              1226.79
+ 53 GLOBAL I      9 15  0 0 F                              1226.79
+ 53 GLOBAL I     10 15  0 0 F                              1226.79
+ 53 GLOBAL I     11 15  0 0 F                              1226.79
+ 55 GLOBAL II     1 15  0 0 F                              1226.79
+ 55 GLOBAL II     2 15  0 0 F                              1226.79
+ 55 GLOBAL II     3 15  0 0 F                              1226.79
+ 55 GLOBAL II     4 15  0 0 F                              1226.79
+ 55 GLOBAL II     5 15  0 0 F                              1226.79
+ 55 GLOBAL II     6 15  0 0 F                              1226.79
+ 55 GLOBAL II     7 15  0 0 F                              1226.79
+ 55 GLOBAL II     8 15  0 0 F                              1226.79
+ 55 GLOBAL II     9 15  0 0 F                              1226.79
+ 55 GLOBAL II    10 15  0 0 F                              1226.79
+ 55 GLOBAL II    11 15  0 0 F                              1226.79
+127 IGUATU        1 15  0 0 F                        0.0      0.00
+133 JUAZEIRO N    1 15  0 0 F                        0.0      0.00
+ 57 MARACANAU     1 15  0 0 F                              1054.21
+ 57 MARACANAU     2 15  0 0 F                              1054.21
+ 57 MARACANAU     3 15  0 0 F                              1054.21
+ 57 MARACANAU     4 15  0 0 F                              1054.21
+ 57 MARACANAU     5 15  0 0 F                              1054.21
+ 57 MARACANAU     6 15  0 0 F                              1054.21
+ 57 MARACANAU     7 15  0 0 F                              1054.21
+ 57 MARACANAU     8 15  0 0 F                              1054.21
+135 MARAMBAIA     1 15  0 0 F                        0.0      0.00
+164 APOENA        1 15  0 0 F                              1834.28
+164 APOENA        2 15  0 0 F                              1834.28
+164 APOENA        3 15  0 0 F                              1834.28
+164 APOENA        4 15  0 0 F                              1834.28
+164 APOENA        5 15  0 0 F                              1834.28
+164 APOENA        6 15  0 0 F                              1834.28
+164 APOENA        7 15  0 0 F                              1834.28
+164 APOENA        8 15  0 0 F                              1834.28
+138 NAZARIA       1 15  0 0 F                        0.0      0.00
+167 P.PECEM1      1 15  0 0 F                               461.06
+167 P.PECEM1      2 15  0 0 F                               461.06
+163 P.PECEM2      1 15  0 0 F                               458.68
+224 PSERGIPE I    1 15  0 0 F                               348.58
+224 PSERGIPE I    2 15  0 0 F                               348.58
+224 PSERGIPE I    3 15  0 0 F                               348.58
+224 PSERGIPE I    4 15  0 0 F                               348.58
+224 PSERGIPE I    5 15  0 0 F                               348.58
+224 PSERGIPE I    6 15  0 0 F                               348.58
+224 PSERGIPE I    7 15  0 0 F                               348.58
+160 PAU FERRO     1 15  0 0 F                              2274.38
+160 PAU FERRO     2 15  0 0 F                              2274.38
+160 PAU FERRO     3 15  0 0 F                              2274.38
+160 PAU FERRO     4 15  0 0 F                              2274.38
+160 PAU FERRO     5 15  0 0 F                              2274.38
+160 PAU FERRO     6 15  0 0 F                              2274.38
+160 PAU FERRO     7 15  0 0 F                              2274.38
+ 98 PERNAMBU_3    1 15  0 0 F                               935.06
+ 98 PERNAMBU_3    2 15  0 0 F                               935.06
+ 98 PERNAMBU_3    3 15  0 0 F                               935.06
+ 98 PERNAMBU_3    4 15  0 0 F                               935.06
+144 PETROLINA     1 15  0 0 F                              2012.45
+144 PETROLINA     2 15  0 0 F                              2012.45
+144 PETROLINA     3 15  0 0 F                              2012.45
+144 PETROLINA     4 15  0 0 F                              2012.45
+144 PETROLINA     5 15  0 0 F                              2012.45
+144 PETROLINA     6 15  0 0 F                              2012.45
+144 PETROLINA     7 15  0 0 F                              2012.45
+144 PETROLINA     8 15  0 0 F                              2012.45
+151 POTIGUAR      1 15  0 0 F                              2030.29
+151 POTIGUAR      2 15  0 0 F                              2030.29
+151 POTIGUAR      3 15  0 0 F                              2030.29
+151 POTIGUAR      4 15  0 0 F                              2030.29
+161 POTIGUAR_3    1 15  0 0 F                              2030.27
+161 POTIGUAR_3    2 15  0 0 F                              2030.27
+161 POTIGUAR_3    3 15  0 0 F                              2030.27
+161 POTIGUAR_3    4 15  0 0 F                              2030.27
+161 POTIGUAR_3    5 15  0 0 F                              2030.27
+161 POTIGUAR_3    6 15  0 0 F                              2030.27
+147 PROSPERIDA    1 15  0 0 F                               183.28
+147 PROSPERIDA    2 15  0 0 F                               183.28
+147 PROSPERIDA    3 15  0 0 F                               183.28
+170 SUAPE II      1 15  0 0 F                              1109.28
+170 SUAPE II      2 15  0 0 F                              1109.28
+170 SUAPE II      3 15  0 0 F                              1109.28
+170 SUAPE II      4 15  0 0 F                              1109.28
+170 SUAPE II      5 15  0 0 F                              1109.28
+170 SUAPE II      6 15  0 0 F                              1109.28
+170 SUAPE II      7 15  0 0 F                              1109.28
+170 SUAPE II      8 15  0 0 F                              1109.28
+170 SUAPE II      9 15  0 0 F                              1109.28
+170 SUAPE II     10 15  0 0 F                              1109.28
+170 SUAPE II     11 15  0 0 F                              1109.28
+170 SUAPE II     12 15  0 0 F                              1109.28
+170 SUAPE II     13 15  0 0 F                              1109.28
+170 SUAPE II     14 15  0 0 F                              1109.28
+170 SUAPE II     15 15  0 0 F                              1109.28
+170 SUAPE II     16 15  0 0 F                              1109.28
+170 SUAPE II     17 15  0 0 F                              1109.28
+221 SYKUE I       1 15  0 0 F                               510.12
+ 43 T.BAHIA       1 15  0 0 F                               374.87
+152 TERMOCABO     1 15  0 0 F                              1069.63
+152 TERMOCABO     2 15  0 0 F                              1069.63
+152 TERMOCABO     3 15  0 0 F                              1069.63
+ 58 TERMOCEARA    1 15  0 0 F                               433.83
+ 58 TERMOCEARA    2 15  0 0 F                               433.83
+ 58 TERMOCEARA    3 15  0 0 F                               433.83
+ 58 TERMOCEARA    4 15  0 0 F                               433.83
+ 58 TERMOCEARA    5 15  0 0 F                               433.83
+ 58 TERMOCEARA    6 15  0 0 F                               433.83
+ 58 TERMOCEARA    7 15  0 0 F                               433.83
+ 58 TERMOCEARA    8 15  0 0 F                               433.83
+ 58 TERMOCEARA    9 15  0 0 F                               433.83
+ 58 TERMOCEARA   10 15  0 0 F                               433.83
+ 58 TERMOCEARA   11 15  0 0 F                               433.83
+ 58 TERMOCEARA   12 15  0 0 F                               433.83
+ 58 TERMOCEARA   13 15  0 0 F                               433.83
+ 58 TERMOCEARA   14 15  0 0 F                               433.83
+ 58 TERMOCEARA   15 15  0 0 F                               433.83
+159 TERMOMANAU    1 15  0 0 F                              2274.38
+159 TERMOMANAU    2 15  0 0 F                              2274.38
+159 TERMOMANAU    3 15  0 0 F                              2274.38
+159 TERMOMANAU    4 15  0 0 F                              2274.38
+159 TERMOMANAU    5 15  0 0 F                              2274.38
+159 TERMOMANAU    6 15  0 0 F                              2274.38
+159 TERMOMANAU    7 15  0 0 F                              2274.38
+159 TERMOMANAU    8 15  0 0 F                              2274.38
+159 TERMOMANAU    9 15  0 0 F                              2274.38
+159 TERMOMANAU   10 15  0 0 F                              2274.38
+159 TERMOMANAU   11 15  0 0 F                              2274.38
+159 TERMOMANAU   12 15  0 0 F                              2274.38
+ 67 TERMONE       1 15  0 0 F                              1073.04
+ 67 TERMONE       2 15  0 0 F                              1073.04
+ 67 TERMONE       3 15  0 0 F                              1073.04
+ 69 TERMOPB       1 15  0 0 F                              1073.04
+ 69 TERMOPB       2 15  0 0 F                              1073.04
+ 69 TERMOPB       3 15  0 0 F                              1073.04
+ 96 TERMOPE       1 15  0 0 F                               183.74
+ 96 TERMOPE       2 15  0 0 F                               183.74
+ 96 TERMOPE       3 15  0 0 F                               183.74
+ 83 VALE ACU      1 15  0 0 F                               450.86
+ 83 VALE ACU      2 15  0 0 F                               450.86
+201 APARECIDA     1 15  0 0 F                               130.12
+201 APARECIDA     2 15  0 0 F                               130.12
+201 APARECIDA     3 15  0 0 F                               130.12
+201 APARECIDA     4 15  0 0 F                               130.12
+203 C. ROCHA      1 15  0 0 F                                 0.00
+203 C. ROCHA      2 15  0 0 F                                 0.00
+203 C. ROCHA      3 15  0 0 F                                 0.00
+203 C. ROCHA      4 15  0 0 F                                 0.00
+203 C. ROCHA      5 15  0 0 F                                 0.00
+ 73 GERAMAR1      1 15  0 0 F                              1082.93
+ 73 GERAMAR1      2 15  0 0 F                              1082.93
+ 73 GERAMAR1      3 15  0 0 F                              1082.93
+ 73 GERAMAR1      4 15  0 0 F                              1082.93
+ 70 GERAMAR2      1 15  0 0 F                              1082.93
+ 70 GERAMAR2      2 15  0 0 F                              1082.93
+ 70 GERAMAR2      3 15  0 0 F                              1082.93
+ 70 GERAMAR2      4 15  0 0 F                              1082.93
+204 JARAQUI       6 15  0 0 F                                 0.00
+204 JARAQUI       7 15  0 0 F                                 0.00
+205 MANAUARA      1 15  0 0 F                                 0.00
+205 MANAUARA      2 15  0 0 F                                 0.00
+205 MANAUARA      3 15  0 0 F                                 0.00
+205 MANAUARA      4 15  0 0 F                                 0.00
+212 MARANHAO3     1 15  0 0 F                                94.86
+ 36 MARANIVL22    1 15  0 0 F                                 0.00
+ 21 MARAN_VL22    1 15  0 0 F                                 0.00
+140 UTE MAUA 3    1 15  0 0 F                               130.12
+140 UTE MAUA 3    2 15  0 0 F                               130.12
+140 UTE MAUA 3    3 15  0 0 F                               130.12
+ 46 N.VEN2_L22    1 15  0 0 F                                 0.00
+116 PARNAIB_IV    1 15  0 0 F                               151.69
+207 PONTA NEGR    1 15  0 0 F                                 0.00
+207 PONTA NEGR    2 15  0 0 F                                 0.00
+207 PONTA NEGR    3 15  0 0 F                                 0.00
+207 PONTA NEGR    4 15  0 0 F                                 0.00
+176 P. ITAQUI     1 15  0 0 F                               451.05
+209 TAMBAQUI      5 15  0 0 F                                 0.00
+209 TAMBAQUI      6 15  0 0 F                                 0.00
+209 TAMBAQUI      7 15  0 0 F                                 0.00
+383 ATLANTICO     1 15  0 0 F                                 0.00
+383 ATLANTICO     2 15  0 0 F                                 0.00
+383 ATLANTICO     3 15  0 0 F                                 0.00
+383 ATLANTICO     4 15  0 0 F                                 0.00
+383 ATLANTICO     5 15  0 0 F                                 0.00
+383 ATLANTICO     6 15  0 0 F                                 0.00
+383 ATLANTICO     7 15  0 0 F                                 0.00
+ 60 NORTEFLU 1    1 15  0 0 F                                 0.00
+ 60 NORTEFLU 1    2 15  0 0 F                                 0.00
+ 60 NORTEFLU 1    3 15  0 0 F                                 0.00
+ 60 NORTEFLU 1    4 15  0 0 F                                 0.00
+ 60 NORTEFLU 1    5 15  0 0 F                                 0.00
+ 60 NORTEFLU 1    6 15  0 0 F                                 0.00
+ 60 NORTEFLU 1    7 15  0 0 F                                 0.00
+334 W.ARJONA      1 15  0 0 F                              1922.00
+334 W.ARJONA      2 15  0 0 F                              1922.00
+334 W.ARJONA      3 15  0 0 F                              1922.00
+334 W.ARJONA      4 15  0 0 F                              1922.00
+334 W.ARJONA      5 15  0 0 F                              1922.00
+& UTE W. Arjona sem CVU valido para geracao a oleo
+434 W.ARJONA O    1 15  0 0 F                        0.0      0.00
+434 W.ARJONA O    2 15  0 0 F                        0.0      0.00
+434 W.ARJONA O    3 15  0 0 F                        0.0      0.00
+434 W.ARJONA O    4 15  0 0 F                        0.0      0.00
+434 W.ARJONA O    5 15  0 0 F                        0.0      0.00
+106 ERB CANDEI    1 15  0 0 F                                97.18
+FIM

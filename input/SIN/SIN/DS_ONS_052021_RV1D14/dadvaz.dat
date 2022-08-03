@@ -1,0 +1,179 @@
+NUMERO DE USINAS
+XXX
+162
+NUMERO DAS USINAS NO CADASTRO
+1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59  60  61  62  63  64  65  66  67  68  69  70  71  72  73  74  75  76  77  78  79  80  81  82  83  84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 160 161 162 
+XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX 
+1   2   4   24  27  28  25  33  156 134 10  143 162 148 217 193 141 14  18  37  40  42  15  16  38  39  62  63  52  51  47  49  61  50  45  43  34  153 46  120 121 6   7   8   12  17  31  30  251 278 123 129 20  287 257 122 124 130 131 133 125 180 181 182 183 184 107 108 109 117 118 119 32  11  135 139 262 89  144 66  110 111 112 113 114 74  76  82  83  115 73  71  72  57  77  78  93  91  92  252 253 267 281 9   26  86  90  97  98  99  103 169 172 173 174 175 178 190 189 275 272 279 280 204 127 126 283 261 48  249 241 304 305 196 195 95  203 154 310 29  94  215 155 311 312 315 21  290 101 276 102 277 285 286 284 227 228 229 192 230 288 314 
+Hr  Dd  Mm  Ano
+XX  XX  XX  XXXX
+00  14  05  2021
+Dia inic(1-SAB...7-SEX); sem da FCF; n. semanas; pre-interesse
+X X X X
+7 1 1 0
+VAZOES DIARIAS PARA CADA USINA (m3/s)
+NUM     NOME      itp   DI HI M DF HF M      VAZAO
+XXX XXXXXXXXXXXX   X    XXxXXxXxXXxXXxX     XXXXXXXXX
+  1 CAMARGOS       1    14      F                  48
+  2 ITUTINGA       1    14      F                   0
+  4 FUNIL-GRANDE   1    14      F                  61
+ 24 EMBORCACAO     1    14      F                  91
+ 27 CAPIM BRANC1   1    14      F                   0
+ 28 CAPIM BRANC2   1    14      F                   1
+ 25 NOVA PONTE     1    14      F                  90
+ 33 SAO SIMAO      1    14      F                 445
+156 TRES MARIAS    1    14      F                 149
+134 SALTO GRANDE   1    14      F                  54
+ 10 IGARAPAVA      1    14      F                   6
+143 AIMORES        1    14      F                  94
+162 QUEIMADO       1    14      F                  29
+148 IRAPE          1    14      F                  39
+217 ROSAL          1    14      F                  25
+193 SA CARVALHO    1    14      F                   3
+141 BAGUARI        1    14      F                  64
+ 14 CACONDE        1    14      F                  14
+ 18 A. VERMELHA    1    14      F                  68
+ 37 BARRA BONITA   1    14      F                 102
+ 40 PROMISSAO      1    14      F                  24
+ 42 NAVANHANDAVA   1    14      F                  10
+ 15 E. DA CUNHA    1    14      F                   9
+ 16 A.S.OLIVEIRA   1    14      F                   0
+ 38 A.S. LIMA      1    14      F                  23
+ 39 IBITINGA       1    14      F                  45
+ 62 TAQUARUCU      1    14      F                  32
+ 63 ROSANA         1    14      F                  75
+ 52 CANOAS I       1    14      F                   8
+ 51 CANOAS II      1    14      F                   4
+ 47 A.A. LAYDNER   1    14      F                  54
+ 49 CHAVANTES      1    14      F                  32
+ 61 CAPIVARA       1    14      F                  88
+ 50 L.N. GARCEZ    1    14      F                  50
+ 45 JUPIA          1    14      F                 202
+ 43 TRES IRMAOS    1    14      F                   6
+ 34 I. SOLTEIRA    1    14      F                 101
+153 SAO DOMINGOS   1    14      F                  79
+ 46 P. PRIMAVERA   1    14      F                 339
+120 JAGUARI        1    14      F                  15
+121 PARAIBUNA      1    14      F                  38
+  6 FURNAS         1    14      F                 170
+  7 M. DE MORAES   1    14      F                  20
+  8 ESTREITO       1    14      F                   5
+ 12 P. COLOMBIA    1    14      F                  32
+ 17 MARIMBONDO     1    14      F                 125
+ 31 ITUMBIARA      1    14      F                  85
+ 30 CORUMBA I      1    14      F                 174
+251 SERRA MESA     1    14      F                 356
+278 MANSO          1    14      F                  73
+123 FUNIL          1    14      F                  51
+129 SIMPLICIO      1    14      F                 154
+ 20 BATALHA        1    14      F                  55
+287 STO ANTONIO    1    14      F                  72
+257 PEIXE ANGIC    1    14      F                 344
+122 SANTA BRANCA   1    14      F                   6
+124 LAJES          1    14      F                   3
+130 ILHA POMBOS    1    14      F                  14
+131 NILO PECANHA   1    14      F                   0
+133 P. PASSOS      1    14      F                   0
+125 STA CECILIA    1    14      F                  30
+180 TOCOS          1    14      F                   7
+181 SANTANA        1    14      F                   4
+182 VIGARIO        1    14      F                   0
+183 FONTES A       1    14      F                   0
+184 FONTES BC      1    14      F                   0
+107 EDGARD SOUZA   1    14      F                  63
+108 TRAICAO        1    14      F                   0
+109 PEDREIRA       1    14      F                   0
+117 GUARAPIRANGA   1    14      F                  12
+118 BILLINGS       1    14      F                  15
+119 HENRY BORDEN   1    14      F                   0
+ 32 CACH.DOURADA   1    14      F                  32
+ 11 VOLTA GRANDE   1    14      F                  12
+135 P. ESTRELA     1    14      F                   2
+139 CANDONGA       1    14      F                  82
+262 SALTO          1    14      F                  99
+ 89 GARIBALDI      1    14      F                  74
+144 MASCARENHAS    1    14      F                  53
+ 66 ITAIPU         1    14      F                1117
+110 ERNESTINA      1    14      F                   9
+111 PASSO REAL     1    14      F                  25
+112 JACUI          1    14      F                   0
+113 ITAUBA         1    14      F                   5
+114 D. FRANCISCA   1    14      F                   5
+ 74 G.B. MUNHOZ    1    14      F                 137
+ 76 SEGREDO        1    14      F                  16
+ 82 SALTO CAXIAS   1    14      F                  20
+ 83 BAIXO IGUACU   1    14      F                  53
+115 G.P. SOUZA     1    14      F                  12
+ 73 JORDAO         1    14      F                   3
+ 71 STA CLARA PR   1    14      F                  12
+ 72 FUNDAO         1    14      F                   1
+ 57 MAUA           1    14      F                  78
+ 77 SLT.SANTIAGO   1    14      F                   8
+ 78 SALTO OSORIO   1    14      F                   3
+ 93 PASSO FUNDO    1    14      F                  10
+ 91 MACHADINHO     1    14      F                  25
+ 92 ITA            1    14      F                  19
+252 CANA BRAVA     1    14      F                  44
+253 SAO SALVADOR   1    14      F                  44
+267 ESTREITO TOC   1    14      F                1515
+281 PONTE PEDRA    1    14      F                  70
+  9 JAGUARA        1    14      F                   2
+ 26 MIRANDA        1    14      F                   4
+ 86 BARRA GRANDE   1    14      F                  53
+ 90 CAMPOS NOVOS   1    14      F                   7
+ 97 CASTRO ALVES   1    14      F                  24
+ 98 MONTE CLARO    1    14      F                   7
+ 99 14 DE JULHO    1    14      F                   1
+103 FOZ CHAPECO    1    14      F                  37
+169 SOBRADINHO     1    14      F                 698
+172 ITAPARICA      1    14      F                   0
+173 MOXOTO         1    14      F                   0
+174 P.AFONSO 123   1    14      F                   0
+175 P.AFONSO 4     1    14      F                   0
+178 XINGO          1    14      F                   0
+190 B. ESPERANCA   1    14      F                 351
+189 P. CAVALO      1    14      F                  65
+275 TUCURUI        1    14      F                8260
+272 CURUA-UNA      1    14      F                 523
+279 SAMUEL         1    14      F                 361
+280 COARACY NUNE   1    14      F                   7
+204 CACH.CALDEIR   1    14      F                2415
+127 SOBRAGI        1    14      F                  26
+126 PICADA         1    14      F                  18
+283 STA CLARA MG   1    14      F                  20
+261 LAJEADO        1    14      F                 361
+ 48 PIRAJU         1    14      F                   2
+249 OURINHOS       1    14      F                   2
+241 SLT VERDINHO   1    14      F                   8
+304 ITIQUIRA I     1    14      F                  53
+305 ITIQUIRA II    1    14      F                   0
+196 GUAPORE        1    14      F                  35
+195 JAURU          1    14      F                  68
+ 95 QUEBRA QUEIX   1    14      F                  10
+203 CORUMBA III    1    14      F                  19
+154 ITAPEBI        1    14      F                  47
+310 DARDANELOS     1    14      F                 314
+ 29 CORUMBA IV     1    14      F                  68
+ 94 MONJOLINHO     1    14      F                   7
+215 SALTO PILAO    1    14      F                  43
+155 RETIRO BAIXO   1    14      F                  41
+311 CACU           1    14      F                  83
+312 B. COQUEIROS   1    14      F                   3
+315 FOZ R. CLARO   1    14      F                   6
+ 21 SERRA FACAO    1    14      F                  34
+290 ESPORA         1    14      F                  47
+101 SAO JOSE       1    14      F                  72
+276 RONDON II      1    14      F                  74
+102 PASSO S JOAO   1    14      F                   3
+277 BALBINA        1    14      F                1744
+285 JIRAU          1    14      F               24740
+286 STO ANT JARI   1    14      F                2479
+284 FERREIRA GOM   1    14      F                  22
+227 SINOP          1    14      F                1218
+228 COLIDER        1    14      F                 114
+229 TELES PIRES    1    14      F                1833
+192 GUILMAN-AMOR   1    14      F                  32
+230 SAO MANOEL     1    14      F                  28
+288 BELO MONTE     1    14      F                   0
+314 PIMENTAL       1    14      F               15008
+FIM
