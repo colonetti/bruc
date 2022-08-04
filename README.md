@@ -65,9 +65,13 @@ where $u$ are additional binary variables. In this simple example, *aggr* and *z
 # Network model
 We use the common DC representation of the network.
 
-It is well known that, in such representations, many network constraints are actually redundant: they are not binding in any feasible solution of the problem. Thus, these constraints can be safely removed from the model without altering the feasible set. The problem, of course, is identifying these constraints in a timely manner. Luckily, some of them are very easy to find. 
+It is well known that, in such representations, many network constraints are actually redundant: they are not binding in any feasible solution of the problem. Thus, these constraints can be safely removed from the model without altering the feasible set. The problem, of course, is identifying these constraints in a timely manner. Luckily, some of them are very easy to find. Consider the 7-bus network below in which buses with nonzero net power injections are given in red, while buses with no net power injections, i.e., there are no loads or generation facilities connected to them, are given in blue. Here, by power injection, we mean any power withdraw from loads or power insertion by generation facilities.
 
-![alt text](https://github.com/colonetti/bruc/blob/main/images/example.jpg?raw=true)
+<a href="url"><img src="https://github.com/colonetti/bruc/blob/main/images/example.jpg" align="right" width="480" ></a>
+
+In this simple illustration, note that if the largest possible power injection at Bus 1 is no more than the capacity of Line 1, then it is safe to say that Line 1's capacity cannot possibly be violated by any feasible DC power flow for this network. Moreover, because Bus 1 is a 'end-of-line' bus (it is connected to the rest of the network by a single line), then any nonzero power injection at Bus 1 must be met by a corresponding nonzero power injection of the same magnitude and oppose sign at Bus 5. Therefore, we can actually remove from this network both Line 1 and Bus 1 and reallocate any load or generation at Bus 1 to Bus 5. A simpler case is that of Bus 4, since it has no load and no generation, its net power injection is necessarily 0. Consequently, power flowing through Line 5 necessarily also flows through Line 4. Thus, these two lines can be combined into a single one, resulting in the removal of one bus and one line from the network.
+
+As simple as these steps are, they can easily identify thousands of unnecessary buses and lines, significantly reducing the problem size. Note, however, that it may or may not be reflected in speed-ups in solution times because the optimization solver itself might be able to identify these redundant constraints.
 
 # Overview of the optimization model
 
