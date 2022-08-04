@@ -65,6 +65,10 @@ where $u$ are additional binary variables. In this simple example, *aggr* and *z
 # Network model
 We use the common DC representation of the network.
 
+It is well known that, in such representations, many network constraints are actually redundant: they are not binding in any feasible solution of the problem. Thus, these constraints can be safely removed from the model without altering the feasible set. The problem, of course, is identifying these constraints in a timely manner. Luckily, some of them are very easy to find. 
+
+![alt text](https://github.com/colonetti/bruc/blob/main/images/example.jpg?raw=true)
+
 # Overview of the optimization model
 
 For all cases, the planning horizon contains 48 periods of 30 minutes. The number of constraints and variables slightly varies with the test case used and with the model chosen for the operation of the hydro plants, an average model size is given below for case DS_ONS_012022_RV1D14 with no binary variables for the hydro generating units (no hydro binaries).
